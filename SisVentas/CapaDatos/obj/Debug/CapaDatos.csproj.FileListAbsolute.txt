@@ -1,0 +1,89 @@
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Administrador\Videos\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Videos\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Videos\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Videos\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Administrador\Videos\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb

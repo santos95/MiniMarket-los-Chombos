@@ -1,0 +1,13 @@
+aqui se documentaran los atajos que se crearon para la creacion de la guia de uso del software
+
+---------------------Menu top-------------------------
+       
+Herramientas
+
+1) Calculadora: Alt + C.
+
+
+Administracion
+
+1) Agregar cargo: Crt + A.
+

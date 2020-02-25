@@ -1,0 +1,1130 @@
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmPresentacion.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Videos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsultas_Stock_Articulos.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\byakuya\Desktop\sisventa\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\byakuya\Desktop\sisventa1\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Downloads\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\edmig\OneDrive\Documents\Proyecto de la Rata\Nueva carpeta (2)\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\50588\Desktop\sisventafinal\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\50588\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\byakuya\Desktop\sisventafinal 1-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 12-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 14-11-19\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Downloads\rata\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\josemanuel\Desktop\sisventafinal 16-11-19\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 2.37\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 18-11-19 10.02\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 1.06 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 10.30 am\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 04.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 19-11-19 07.57 pm\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 21-11-2019 15.26 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\josemanuel\Desktop\sisventafinal 23-11-2019 21.50 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\josemanuel\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+F:\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmRoles.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmRoles.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.cache
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Administrador\Desktop\sisventafinal 24-11-2019 6.30 pm\SisVentas\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmRoles.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\josemanuel\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVista_Roles.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmAyuda.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmayuda_atajos.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmRoles.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVista_Roles.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

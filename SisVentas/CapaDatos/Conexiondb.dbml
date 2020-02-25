@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dbventasProyectTer" Class="ConexiondbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=dbventasProyectTer;Integrated Security=True" SettingsObjectName="CapaDatos.Properties.Settings" SettingsPropertyName="cn" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.cat_articulo" Member="cat_articulo">
+    <Type Name="cat_articulo">
+      <Column Name="cod_articulo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="categoria_articulo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(1024)" CanBeNull="true" />
+      <Column Name="imagen" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="cod_presentacion" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="cat_articulo_tbl_detalle_venta" Member="tbl_detalle_venta" ThisKey="cod_articulo" OtherKey="articulo" Type="tbl_detalle_venta" />
+      <Association Name="cat_articulo_tbl_inventario" Member="tbl_inventario" ThisKey="cod_articulo" OtherKey="articulo" Type="tbl_inventario" />
+      <Association Name="tbl_categoria_cat_articulo" Member="tbl_categoria" ThisKey="categoria_articulo" OtherKey="id_categoria" Type="tbl_categoria" IsForeignKey="true" />
+      <Association Name="tbl_presentacion_cat_articulo" Member="tbl_presentacion" ThisKey="cod_presentacion" OtherKey="id_presentacion" Type="tbl_presentacion" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cat_bitacora_acceso" Member="cat_bitacora_acceso">
+    <Type Name="cat_bitacora_acceso">
+      <Column Name="cod_bitacora" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="usuario" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="fecha_conexion" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="hora_conexion" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="hora_desconexion" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="ip_maquina" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="actividad" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="cat_bitacora_acceso_tbl_detallebitacora" Member="tbl_detallebitacora" ThisKey="cod_bitacora" OtherKey="cod_bitacora" Type="tbl_detallebitacora" />
+      <Association Name="cat_usuario_cat_bitacora_acceso" Member="cat_usuario" ThisKey="usuario" OtherKey="cod_usuario" Type="cat_usuario" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cat_cliente" Member="cat_cliente">
+    <Type Name="cat_cliente">
+      <Column Name="cod_cliente" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="persona" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tipo_cliente" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="genero" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Association Name="cat_cliente_cat_venta" Member="cat_venta" ThisKey="cod_cliente" OtherKey="cliente" Type="cat_venta" />
+      <Association Name="cat_persona_cat_cliente" Member="cat_persona" ThisKey="persona" OtherKey="cod_persona" Type="cat_persona" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cat_compra" Member="cat_compra">
+    <Type Name="cat_compra">
+      <Column Name="cod_compra" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cod_trabajador" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cod_proveedor" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tipo_compra" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="subtotal" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="IVA" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="total" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="fecharegistro" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Association Name="cat_compra_cat_cuentaxpagar" Member="cat_cuentaxpagar" ThisKey="cod_compra" OtherKey="Compra" Type="cat_cuentaxpagar" />
+      <Association Name="cat_compra_tbl_detalle_compra" Member="tbl_detalle_compra" ThisKey="cod_compra" OtherKey="compra" Type="tbl_detalle_compra" />
+      <Association Name="cat_proveedor_cat_compra" Member="cat_proveedor" ThisKey="cod_proveedor" OtherKey="cod_proveedor" Type="cat_proveedor" IsForeignKey="true" />
+      <Association Name="cat_trabajador_cat_compra" Member="cat_trabajador" ThisKey="cod_trabajador" OtherKey="cod_trabajador" Type="cat_trabajador" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cat_cuentaxpagar" Member="cat_cuentaxpagar">
+    <Type Name="cat_cuentaxpagar">
+      <Column Name="NumCuentaxPagar" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Compra" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Monto" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="TipoPago" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TasaInteres" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Prima" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Cuotas_Pagar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Total_Pagar" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="FechaInicio" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="cat_cuentaxpagar_tbl_DetalleCuentaxPagar" Member="tbl_DetalleCuentaxPagar" ThisKey="NumCuentaxPagar" OtherKey="cuentaxpagar" Type="tbl_DetalleCuentaxPagar" />
+      <Association Name="cat_compra_cat_cuentaxpagar" Member="cat_compra" ThisKey="Compra" OtherKey="cod_compra" Type="cat_compra" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cat_persona" Member="cat_persona">
+    <Type Name="cat_persona">
+      <Column Name="cod_persona" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cedula_ruc" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="apellido_sucursal" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fechanac_fechaconstitucion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="telefono" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="correo" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="direccion" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Association Name="cat_persona_cat_cliente" Member="cat_cliente" ThisKey="cod_persona" OtherKey="persona" Type="cat_cliente" />
+      <Association Name="cat_persona_cat_proveedor" Member="cat_proveedor" ThisKey="cod_persona" OtherKey="persona" Type="cat_proveedor" />
+      <Association Name="cat_persona_cat_trabajador" Member="cat_trabajador" ThisKey="cod_persona" OtherKey="persona" Type="cat_trabajador" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cat_proveedor" Member="cat_proveedor">
+    <Type Name="cat_proveedor">
+      <Column Name="cod_proveedor" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="persona" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="politica_venta" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="observacion" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="fecharegistro" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Association Name="cat_proveedor_cat_compra" Member="cat_compra" ThisKey="cod_proveedor" OtherKey="cod_proveedor" Type="cat_compra" />
+      <Association Name="cat_persona_cat_proveedor" Member="cat_persona" ThisKey="persona" OtherKey="cod_persona" Type="cat_persona" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cat_sucursal" Member="cat_sucursal">
+    <Type Name="cat_sucursal">
+      <Column Name="cod_" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombresucursal" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="telefono" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="direccion" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="observacion" Type="System.String" DbType="VarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="fecharegistro" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cat_trabajador" Member="cat_trabajador">
+    <Type Name="cat_trabajador">
+      <Column Name="cod_trabajador" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="persona" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="genero" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="inss" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="estadocivil" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="razon_contratacion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Association Name="cat_trabajador_cat_compra" Member="cat_compra" ThisKey="cod_trabajador" OtherKey="cod_trabajador" Type="cat_compra" />
+      <Association Name="cat_trabajador_cat_usuario" Member="cat_usuario" ThisKey="cod_trabajador" OtherKey="trabajadoremp" Type="cat_usuario" />
+      <Association Name="cat_trabajador_cat_venta" Member="cat_venta" ThisKey="cod_trabajador" OtherKey="cod_trabajador" Type="cat_venta" />
+      <Association Name="cat_trabajador_tbl_detallecargoasignado" Member="tbl_detallecargoasignado" ThisKey="cod_trabajador" OtherKey="trabajador" Type="tbl_detallecargoasignado" />
+      <Association Name="cat_persona_cat_trabajador" Member="cat_persona" ThisKey="persona" OtherKey="cod_persona" Type="cat_persona" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cat_usuario" Member="cat_usuario">
+    <Type Name="cat_usuario">
+      <Column Name="cod_usuario" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="trabajadoremp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rolacceso" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="usuario" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="pass" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="autorizado" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="fechaing" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="cat_usuario_cat_bitacora_acceso" Member="cat_bitacora_acceso" ThisKey="cod_usuario" OtherKey="usuario" Type="cat_bitacora_acceso" />
+      <Association Name="cat_trabajador_cat_usuario" Member="cat_trabajador" ThisKey="trabajadoremp" OtherKey="cod_trabajador" Type="cat_trabajador" IsForeignKey="true" />
+      <Association Name="tbl_rolacceso_cat_usuario" Member="tbl_rolacceso" ThisKey="rolacceso" OtherKey="id_rolacceso" Type="tbl_rolacceso" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cat_venta" Member="cat_venta">
+    <Type Name="cat_venta">
+      <Column Name="cod_venta" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cod_trabajador" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="forma_pago" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cliente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="subtotal" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="IVA" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="total" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="fecharegistro" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Association Name="cat_venta_tbl_detalle_venta" Member="tbl_detalle_venta" ThisKey="cod_venta" OtherKey="cod_venta" Type="tbl_detalle_venta" />
+      <Association Name="cat_cliente_cat_venta" Member="cat_cliente" ThisKey="cliente" OtherKey="cod_cliente" Type="cat_cliente" IsForeignKey="true" />
+      <Association Name="cat_trabajador_cat_venta" Member="cat_trabajador" ThisKey="cod_trabajador" OtherKey="cod_trabajador" Type="cat_trabajador" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_asignacionsucursal" Member="tbl_asignacionsucursal">
+    <Type Name="tbl_asignacionsucursal">
+      <Column Name="id_asignacionsucursal" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="trabajador" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="observacion" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="fecharegistro" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="tbl_detallecargoasignado_tbl_asignacionsucursal" Member="tbl_detallecargoasignado" ThisKey="trabajador" OtherKey="id_detallec" Type="tbl_detallecargoasignado" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_cargo" Member="tbl_cargo">
+    <Type Name="tbl_cargo">
+      <Column Name="id_cargo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre_cargo" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="descripcion_cargo" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="observacion" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="fecharegistro" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_cargo_tbl_detallecargoasignado" Member="tbl_detallecargoasignado" ThisKey="id_cargo" OtherKey="cargo" Type="tbl_detallecargoasignado" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_categoria" Member="tbl_categoria">
+    <Type Name="tbl_categoria">
+      <Column Name="id_categoria" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombrecat" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="observacion" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="fecharegistro" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="tbl_categoria_cat_articulo" Member="cat_articulo" ThisKey="id_categoria" OtherKey="categoria_articulo" Type="cat_articulo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_control_acceso" Member="tbl_control_acceso">
+    <Type Name="tbl_control_acceso">
+      <Column Name="id_control_acceso" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="usuario" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="estadoacceso" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="fecha_acceso" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="hora_acceso" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="FECHA_DESCONEXION" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="hora_desconexion" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_detalle_compra" Member="tbl_detalle_compra">
+    <Type Name="tbl_detalle_compra">
+      <Column Name="cod_detalle_compra" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="compra" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="articulo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cantidad" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cantidad_rec" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="precio_compra" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tasa_descuento" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="descuento" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="monto" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_detalle_compra_tbl_estadocompra" Member="tbl_estadocompra" ThisKey="cod_detalle_compra" OtherKey="detalle_compra" Type="tbl_estadocompra" />
+      <Association Name="cat_compra_tbl_detalle_compra" Member="cat_compra" ThisKey="compra" OtherKey="cod_compra" Type="cat_compra" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_detalle_venta" Member="tbl_detalle_venta">
+    <Type Name="tbl_detalle_venta">
+      <Column Name="cod_detalle_venta" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cod_venta" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="articulo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cantidad" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="precio_venta" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="descuento" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Association Name="cat_articulo_tbl_detalle_venta" Member="cat_articulo" ThisKey="articulo" OtherKey="cod_articulo" Type="cat_articulo" IsForeignKey="true" />
+      <Association Name="cat_venta_tbl_detalle_venta" Member="cat_venta" ThisKey="cod_venta" OtherKey="cod_venta" Type="cat_venta" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_detallebitacora" Member="tbl_detallebitacora">
+    <Type Name="tbl_detallebitacora">
+      <Column Name="id_detallebitacora" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cod_bitacora" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tablaafectada" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="numcamposafectados" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tipomovimiento" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="horamovimiento" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="registroanterior" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="registronuevo" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="cat_bitacora_acceso_tbl_detallebitacora" Member="cat_bitacora_acceso" ThisKey="cod_bitacora" OtherKey="cod_bitacora" Type="cat_bitacora_acceso" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_detallecargoasignado" Member="tbl_detallecargoasignado">
+    <Type Name="tbl_detallecargoasignado">
+      <Column Name="id_detallec" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="trabajador" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cargo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="autorizado" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ingresado" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fechaasign" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="tbl_detallecargoasignado_tbl_asignacionsucursal" Member="tbl_asignacionsucursal" ThisKey="id_detallec" OtherKey="trabajador" Type="tbl_asignacionsucursal" />
+      <Association Name="tbl_cargo_tbl_detallecargoasignado" Member="tbl_cargo" ThisKey="cargo" OtherKey="id_cargo" Type="tbl_cargo" IsForeignKey="true" />
+      <Association Name="cat_trabajador_tbl_detallecargoasignado" Member="cat_trabajador" ThisKey="trabajador" OtherKey="cod_trabajador" Type="cat_trabajador" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_DetalleCuentaxPagar" Member="tbl_DetalleCuentaxPagar">
+    <Type Name="tbl_DetalleCuentaxPagar">
+      <Column Name="id_detallecuentaxpagar" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cuentaxpagar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ultimafechapago" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="proximafechapago" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="saldoinicial" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="montoproximo" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="cuotas_pagadas" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cuotasrestantes" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="montopagototal" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="saldorestante" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_DetalleCuentaxPagar_tbl_estadocuenta" Member="tbl_estadocuenta" ThisKey="id_detallecuentaxpagar" OtherKey="detallecuenta" Type="tbl_estadocuenta" />
+      <Association Name="cat_cuentaxpagar_tbl_DetalleCuentaxPagar" Member="cat_cuentaxpagar" ThisKey="cuentaxpagar" OtherKey="NumCuentaxPagar" Type="cat_cuentaxpagar" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_estadocompra" Member="tbl_estadocompra">
+    <Type Name="tbl_estadocompra">
+      <Column Name="id_estadocompra" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="detalle_compra" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="fecharegistro" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_detalle_compra_tbl_estadocompra" Member="tbl_detalle_compra" ThisKey="detalle_compra" OtherKey="cod_detalle_compra" Type="tbl_detalle_compra" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_estadocuenta" Member="tbl_estadocuenta">
+    <Type Name="tbl_estadocuenta">
+      <Column Name="id_estadocuentaxpagar" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="detallecuenta" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FechaInicio" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="FechaCancelacion" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="EstadoCuenta" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_DetalleCuentaxPagar_tbl_estadocuenta" Member="tbl_DetalleCuentaxPagar" ThisKey="detallecuenta" OtherKey="id_detallecuentaxpagar" Type="tbl_DetalleCuentaxPagar" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_inventario" Member="tbl_inventario">
+    <Type Name="tbl_inventario">
+      <Column Name="id_inventario" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="articulo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="existencia" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="disponibilidad" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cantidadminima" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cantidadmaxima" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="fecharegistro" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Association Name="cat_articulo_tbl_inventario" Member="cat_articulo" ThisKey="articulo" OtherKey="cod_articulo" Type="cat_articulo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_presentacion" Member="tbl_presentacion">
+    <Type Name="tbl_presentacion">
+      <Column Name="id_presentacion" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="fecharegistro" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="tbl_presentacion_cat_articulo" Member="cat_articulo" ThisKey="id_presentacion" OtherKey="cod_presentacion" Type="cat_articulo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_rolacceso" Member="tbl_rolacceso">
+    <Type Name="tbl_rolacceso">
+      <Column Name="id_rolacceso" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tiporol" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fechaing" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="tbl_rolacceso_cat_usuario" Member="cat_usuario" ThisKey="id_rolacceso" OtherKey="rolacceso" Type="cat_usuario" />
+    </Type>
+  </Table>
+  <Function Name="dbo.accesologin" Method="accesologin">
+    <Parameter Name="usuario" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="password" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="accesologinResult">
+      <Column Name="rolacceso" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="usuario" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="pass" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="cod_usuario" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.estadoconexion" Method="estadoconexion">
+    <Parameter Name="cod_usuario" Type="System.Int32" DbType="Int" />
+    <ElementType Name="estadoconexionResult">
+      <Column Name="id_control_acceso" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="usuario" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="estadoacceso" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="fecha_acceso" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="hora_acceso" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="FECHA_DESCONEXION" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="hora_desconexion" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Insertar_cargo" Method="Insertar_cargo">
+    <Parameter Name="nombre_cargo" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="descripcion_cargo" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="observacion" Type="System.String" DbType="VarChar(500)" />
+    <Parameter Name="estado" Type="System.Char" DbType="Char(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Insertar_persona" Method="Insertar_persona">
+    <Parameter Name="cod_persona" Type="System.Int32" DbType="Int" />
+    <Parameter Name="cedula_ruc" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="apellido_sucursal" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="fechanac_fechaconstitucion" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="telefono" Type="System.Int32" DbType="Int" />
+    <Parameter Name="correo" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="direccion" Type="System.String" DbType="VarChar(250)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Insertar_Estado_Compras" Method="Insertar_Estado_Compras">
+    <Parameter Name="detalle_compra" Type="System.Int32" DbType="Int" />
+    <Parameter Name="fecharegistro" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="estado" Type="System.Char" DbType="Char(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Insertar_Detalle_Compras" Method="Insertar_Detalle_Compras">
+    <Parameter Name="compra" Type="System.Int32" DbType="Int" />
+    <Parameter Name="articulo" Type="System.Int32" DbType="Int" />
+    <Parameter Name="cantidad" Type="System.Int32" DbType="Int" />
+    <Parameter Name="cantidad_rec" Type="System.Int32" DbType="Int" />
+    <Parameter Name="precio_compra" Type="System.Int32" DbType="Int" />
+    <Parameter Name="tasa_descuento" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="descuento" Type="System.Double" DbType="Float" />
+    <Parameter Name="monto" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Insertar_Compras" Method="Insertar_Compras">
+    <Parameter Name="cod_trabajador" Type="System.Int32" DbType="Int" />
+    <Parameter Name="cod_proveedor" Type="System.Int32" DbType="Int" />
+    <Parameter Name="tipo_compra" Type="System.String" DbType="Char(4)" />
+    <Parameter Name="subtotal" Type="System.Double" DbType="Float" />
+    <Parameter Name="IVA" Parameter="iVA" Type="System.Double" DbType="Float" />
+    <Parameter Name="total" Type="System.Double" DbType="Float" />
+    <Parameter Name="fecharegistro" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="estado" Type="System.Char" DbType="Char(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Insertar_Presentacion" Method="Insertar_Presentacion">
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="descripcion" Type="System.String" DbType="VarChar(256)" />
+    <Parameter Name="fecharegistro" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Insertar_proveedor" Method="Insertar_proveedor">
+    <Parameter Name="persona" Type="System.Int32" DbType="Int" />
+    <Parameter Name="politica_venta" Type="System.String" DbType="VarChar(3)" />
+    <Parameter Name="observacion" Type="System.String" DbType="VarChar(200)" />
+    <Parameter Name="fecharegistro" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="estado" Type="System.Char" DbType="Char(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Insertar_Trabajador" Method="Insertar_Trabajador">
+    <Parameter Name="persona" Type="System.Int32" DbType="Int" />
+    <Parameter Name="genero" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="inss" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="estadocivil" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="razon_contrataciones" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="estado" Type="System.Char" DbType="Char(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Insertar_Cliente" Method="Insertar_Cliente">
+    <Parameter Name="persona" Type="System.Int32" DbType="Int" />
+    <Parameter Name="tipo_cliente" Type="System.String" DbType="Char(2)" />
+    <Parameter Name="genero" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="estado" Type="System.Char" DbType="Char(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Insertar_Articulo" Method="Insertar_Articulo">
+    <Parameter Name="categoria_articulo" Type="System.Int32" DbType="Int" />
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="descripcion" Type="System.String" DbType="VarChar(1024)" />
+    <Parameter Name="imagen" Type="System.Data.Linq.Binary" DbType="Image" />
+    <Parameter Name="cod_presentacion" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.spinsertar_persona" Method="spinsertar_persona">
+    <Parameter Name="cod_persona" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="cedula_ruc" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="apellido_sucursal" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="fechanac_fechaconstitucion" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="telefono" Type="System.Int32" DbType="Int" />
+    <Parameter Name="correo" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="direccion" Type="System.String" DbType="VarChar(250)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.insert_proveedor" Method="insert_proveedor">
+    <Parameter Name="persona" Type="System.Int32" DbType="Int" />
+    <Parameter Name="politica_venta" Type="System.String" DbType="VarChar(3)" />
+    <Parameter Name="observacion" Type="System.String" DbType="VarChar(200)" />
+    <Parameter Name="estado" Type="System.Char" DbType="Char(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.spinsertar_per" Method="spinsertar_per">
+    <Parameter Name="cedula_ruc" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="apellido_sucursal" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="fechanac_fechaconstitucion" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="telefono" Type="System.Int32" DbType="Int" />
+    <Parameter Name="correo" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="direccion" Type="System.String" DbType="VarChar(250)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.query_persona" Method="query_persona">
+    <ElementType Name="query_personaResult">
+      <Column Name="cod_persona" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cedula_ruc" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="apellido_sucursal" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fechanac_fechaconstitucion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="telefono" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="correo" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="direccion" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Insertar_categoria" Method="Insertar_categoria">
+    <Parameter Name="nombrecat" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="observacion" Type="System.String" DbType="VarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Insertar_roles" Method="Insertar_roles">
+    <Parameter Name="tiporol" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="estado" Type="System.Char" DbType="Char(1)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.query_rolacceso" Method="query_rolacceso">
+    <ElementType Name="query_rolaccesoResult">
+      <Column Name="id_rolacceso" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tiporol" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fechaing" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.dinamicquery_rolacceso" Method="dinamicquery_rolacceso">
+    <Parameter Name="query" Type="System.String" DbType="NVarChar(100)" />
+    <ElementType Name="dinamicquery_rolaccesoResult">
+      <Column Name="id_rolacceso" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tiporol" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fechaing" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
