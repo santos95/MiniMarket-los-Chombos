@@ -1,0 +1,206 @@
+Microsoft(R) Server Maintenance Utility (Unicode) Version 12.0.2000
+Report was generated on "DESKTOP-DD0P9AE".
+Maintenance Plan: Plan los chombosSA
+Duration: 00:00:01
+Status: Succeeded.
+Details:
+Check Database Integrity (DESKTOP-DD0P9AE)
+Check Database integrity on Local server connection
+Databases: dbventasProyectTer
+Include indexes
+Task start: 2019-11-23T18:35:45.
+Task end: 2019-11-23T18:35:45.
+Success
+Command:USE [dbventasProyectTer]
+GO
+DBCC CHECKDB(N''dbventasProyectTer'')  WITH NO_INFOMSGS
+
+GO
+
+
+Reorganize Index (DESKTOP-DD0P9AE)
+Reorganize index on Local server connection
+Databases: dbventasProyectTer
+Object: Tables and views
+Compact large objects
+Task start: 2019-11-23T18:35:45.
+Task end: 2019-11-23T18:35:45.
+Success
+Command:USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__cat_arti__194634870BB949EC] ON [dbo].[cat_articulo] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__cat_bita__FCF70D92D6AAD28E] ON [dbo].[cat_bitacora_acceso] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__cat_clie__08ED61F385901CF6] ON [dbo].[cat_cliente] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__cat_comp__7666303A35DFD527] ON [dbo].[cat_compra] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__cat_cuen__A8E3F4DB514BE5EF] ON [dbo].[cat_cuentaxpagar] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__cat_pers__40188ACA9A1F7D89] ON [dbo].[cat_persona] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__cat_prov__D4A662EB92FB1C09] ON [dbo].[cat_proveedor] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__cat_sucu__357D4C065586DFEF] ON [dbo].[cat_sucursal] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__cat_trab__7A6AEBBCF5677C02] ON [dbo].[cat_trabajador] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__cat_usua__EA3C9B1AF73EE60F] ON [dbo].[cat_usuario] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [UQ__cat_usua__8320F63E708D583C] ON [dbo].[cat_usuario] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [UQ__cat_usua__9AFF8FC6673ACEED] ON [dbo].[cat_usuario] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__cat_vent__2732609568DDE4C0] ON [dbo].[cat_venta] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__fecha_ve__F9B83AFA881AAB72] ON [dbo].[fecha_vencimiento] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_carg__D3C09EC54055A520] ON [dbo].[tbl_cargo] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_cate__CD54BC5AB1941137] ON [dbo].[tbl_categoria] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_cont__BD36F954E121C184] ON [dbo].[tbl_control_acceso] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_deta__91D16D4B1201AB2A] ON [dbo].[tbl_detalle_compra] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_deta__C0D8C5482E0DFD0F] ON [dbo].[tbl_detalle_venta] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_deta__6678F5E446518223] ON [dbo].[tbl_detallebitacora] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_deta__C0D112241E3F5240] ON [dbo].[tbl_detallecargoasignado] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_Deta__61009C505236F614] ON [dbo].[tbl_DetalleCuentaxPagar] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_esta__4B8328C0E804CC46] ON [dbo].[tbl_estadocompra] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_esta__43139D9F12E8113E] ON [dbo].[tbl_estadocuenta] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_inve__013AEB5197E2B427] ON [dbo].[tbl_inventario] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_pres__5F94E0EDC440FA5E] ON [dbo].[tbl_presentacion] REORGANIZE WITH ( LOB_COMPACTION = ON )
+GO
+USE [dbventasProyectTer]
+GO
+ALTER INDEX [PK__tbl_rola__15ADA7A46886C9CB] ON [dbo].[tbl_rolacceso] REORGANIZE WITH ( LOB_COMPACTION = ON )
+
+GO
+
+
+Clean Up History (DESKTOP-DD0P9AE)
+Cleanup history on Local server connection
+History type: Backup,Job,Maintenance Plan
+Age: Older than 7 Days
+Task start: 2019-11-23T18:35:45.
+Task end: 2019-11-23T18:35:46.
+Success
+Command:declare @dt datetime select @dt = cast(N''2019-11-16T18:35:45'' as datetime) exec msdb.dbo.sp_delete_backuphistory @dt
+GO
+EXEC msdb.dbo.sp_purge_jobhistory  @oldest_date=''2019-11-16T18:35:45''
+GO
+EXECUTE msdb..sp_maintplan_delete_log null,null,''2019-11-16T18:35:45''
+
+GO
+
+
+Back Up Database (Full) (DESKTOP-DD0P9AE)
+Backup Database on Local server connection
+Databases: dbventasProyectTer
+Type: Full
+Append existing
+Task start: 2019-11-23T18:35:46.
+Task end: 2019-11-23T18:35:46.
+Success
+Command:BACKUP DATABASE [dbventasProyectTer] TO  DISK = N''D:\PLan\dbventasProyectTer_backup_2019_11_23_183546_1437364.bak'' WITH NOFORMAT, NOINIT,  NAME = N''dbventasProyectTer_backup_2019_11_23_183546_1437364'', SKIP, REWIND, NOUNLOAD,  STATS = 10
+
+GO
+
+
+Maintenance Cleanup Task (DESKTOP-DD0P9AE)
+Maintenance Cleanup on Local server connection
+Cleanup Database Backup files
+Age: Older than 7 Days
+Task start: 2019-11-23T18:35:46.
+Task end: 2019-11-23T18:35:46.
+Success
+Command:EXECUTE master.dbo.xp_delete_file 0,N''D:\PLan'',N'''',N''2019-11-16T18:35:46''
+
+GO
+
+
+Back Up Database (Transaction Log) (DESKTOP-DD0P9AE)
+Backup Database on Local server connection
+Databases: dbventasProyectTer
+Type: Transaction Log
+Append existing
+Task start: 2019-11-23T18:35:46.
+Task end: 2019-11-23T18:35:46.
+Success
+Command:BACKUP LOG [dbventasProyectTer] TO  DISK = N''D:\PLan\dbventasProyectTer_backup_2019_11_23_183546_5593744.trn'' WITH NOFORMAT, NOINIT,  NAME = N''dbventasProyectTer_backup_2019_11_23_183546_5593744'', SKIP, REWIND, NOUNLOAD,  STATS = 10
+
+GO
+
+
+Back Up Database (Differential) (DESKTOP-DD0P9AE)
+Backup Database on Local server connection
+Databases: dbventasProyectTer
+Type: Differential
+Append existing
+Task start: 2019-11-23T18:35:46.
+Task end: 2019-11-23T18:35:46.
+Success
+Command:BACKUP DATABASE [dbventasProyectTer] TO  DISK = N''D:\PLan\dbventasProyectTer_backup_2019_11_23_183546_4521054.bak'' WITH  DIFFERENTIAL , NOFORMAT, NOINIT,  NAME = N''dbventasProyectTer_backup_2019_11_23_183546_4521054'', SKIP, REWIND, NOUNLOAD,  STATS = 10
+
+GO
+
+

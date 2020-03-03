@@ -34,28 +34,15 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.userlbl = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblf = new System.Windows.Forms.Label();
             this.lblh = new System.Windows.Forms.Label();
             this.BarraTitulo = new System.Windows.Forms.Panel();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.MenuVertical = new System.Windows.Forms.Panel();
-            this.pnladmin = new System.Windows.Forms.Panel();
-            this.pnlnegocio = new System.Windows.Forms.Panel();
-            this.pnlventas = new System.Windows.Forms.Panel();
-            this.pnlcompras = new System.Windows.Forms.Panel();
-            this.pnlcaja = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.ttMensaje = new System.Windows.Forms.ToolTip(this.components);
-            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
-            this.panelContenedor = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.HerramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cALCULADORAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -64,21 +51,26 @@
             this.AyudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iconminimizar = new System.Windows.Forms.PictureBox();
             this.iconcerrar = new System.Windows.Forms.PictureBox();
+            this.MenuVertical = new System.Windows.Forms.Panel();
+            this.pnladmin = new System.Windows.Forms.Panel();
             this.btnusuario = new System.Windows.Forms.Button();
             this.btnroles = new System.Windows.Forms.Button();
             this.btnCargo = new System.Windows.Forms.Button();
             this.btnEmpleado = new System.Windows.Forms.Button();
             this.btnMadmin = new System.Windows.Forms.Button();
+            this.pnlnegocio = new System.Windows.Forms.Panel();
             this.btnPresentacion = new System.Windows.Forms.Button();
             this.btnCategoria = new System.Windows.Forms.Button();
             this.btnProveedor = new System.Windows.Forms.Button();
             this.btnproductos = new System.Windows.Forms.Button();
             this.btnMGestion = new System.Windows.Forms.Button();
+            this.pnlventas = new System.Windows.Forms.Panel();
             this.btncliente = new System.Windows.Forms.Button();
             this.btnconsultasventa = new System.Windows.Forms.Button();
             this.btnanularventa = new System.Windows.Forms.Button();
             this.btnnuevaventa = new System.Windows.Forms.Button();
             this.btnMventas = new System.Windows.Forms.Button();
+            this.pnlcompras = new System.Windows.Forms.Panel();
             this.btncotizacion = new System.Windows.Forms.Button();
             this.btncuentasxpagar = new System.Windows.Forms.Button();
             this.btnrecepcioncompra = new System.Windows.Forms.Button();
@@ -86,17 +78,29 @@
             this.btnanularcompra = new System.Windows.Forms.Button();
             this.btnnuevacompra = new System.Windows.Forms.Button();
             this.btnMcompras = new System.Windows.Forms.Button();
+            this.pnlcaja = new System.Windows.Forms.Panel();
             this.btnmovimientocaja = new System.Windows.Forms.Button();
             this.btnegresos = new System.Windows.Forms.Button();
             this.btningresos = new System.Windows.Forms.Button();
             this.btncierracaja = new System.Windows.Forms.Button();
             this.btnaperturacaja = new System.Windows.Forms.Button();
             this.btnMcaja = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnlogoInicio = new System.Windows.Forms.PictureBox();
             this.btnMenu = new System.Windows.Forms.PictureBox();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.ttMensaje = new System.Windows.Forms.ToolTip(this.components);
+            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.panelContenedor = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.BarraTitulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).BeginInit();
             this.MenuVertical.SuspendLayout();
             this.pnladmin.SuspendLayout();
             this.pnlnegocio.SuspendLayout();
@@ -104,10 +108,6 @@
             this.pnlcompras.SuspendLayout();
             this.pnlcaja.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnlogoInicio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             this.SuspendLayout();
@@ -159,6 +159,18 @@
             this.label5.Size = new System.Drawing.Size(119, 16);
             this.label5.TabIndex = 45;
             this.label5.Text = "Tasa de Cambio:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(41, 26);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label6
             // 
@@ -243,6 +255,17 @@
             this.BarraTitulo.Paint += new System.Windows.Forms.PaintEventHandler(this.BarraTitulo_Paint);
             this.BarraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarraTitulo_MouseDown);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Image = global::CapaPresentacion.Properties.Resources.settings;
+            this.pictureBox2.Location = new System.Drawing.Point(772, 33);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 20);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
@@ -254,187 +277,10 @@
             this.AyudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(3, 9);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(436, 40);
+            this.menuStrip1.Size = new System.Drawing.Size(344, 40);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
-            // 
-            // MenuVertical
-            // 
-            this.MenuVertical.AutoScroll = true;
-            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
-            this.MenuVertical.Controls.Add(this.pnladmin);
-            this.MenuVertical.Controls.Add(this.btnMadmin);
-            this.MenuVertical.Controls.Add(this.pnlnegocio);
-            this.MenuVertical.Controls.Add(this.btnMGestion);
-            this.MenuVertical.Controls.Add(this.pnlventas);
-            this.MenuVertical.Controls.Add(this.btnMventas);
-            this.MenuVertical.Controls.Add(this.pnlcompras);
-            this.MenuVertical.Controls.Add(this.btnMcompras);
-            this.MenuVertical.Controls.Add(this.pnlcaja);
-            this.MenuVertical.Controls.Add(this.btnMcaja);
-            this.MenuVertical.Controls.Add(this.panel2);
-            this.MenuVertical.Controls.Add(this.btnMenu);
-            this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
-            this.MenuVertical.Location = new System.Drawing.Point(0, 0);
-            this.MenuVertical.Name = "MenuVertical";
-            this.MenuVertical.Size = new System.Drawing.Size(224, 755);
-            this.MenuVertical.TabIndex = 9;
-            this.MenuVertical.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuVertical_Paint);
-            // 
-            // pnladmin
-            // 
-            this.pnladmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
-            this.pnladmin.Controls.Add(this.btnusuario);
-            this.pnladmin.Controls.Add(this.btnroles);
-            this.pnladmin.Controls.Add(this.btnCargo);
-            this.pnladmin.Controls.Add(this.btnEmpleado);
-            this.pnladmin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnladmin.Location = new System.Drawing.Point(16, 916);
-            this.pnladmin.Name = "pnladmin";
-            this.pnladmin.Size = new System.Drawing.Size(191, 134);
-            this.pnladmin.TabIndex = 12;
-            this.pnladmin.Visible = false;
-            this.pnladmin.Paint += new System.Windows.Forms.PaintEventHandler(this.pnladmin_Paint);
-            // 
-            // pnlnegocio
-            // 
-            this.pnlnegocio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
-            this.pnlnegocio.Controls.Add(this.btnPresentacion);
-            this.pnlnegocio.Controls.Add(this.btnCategoria);
-            this.pnlnegocio.Controls.Add(this.btnProveedor);
-            this.pnlnegocio.Controls.Add(this.btnproductos);
-            this.pnlnegocio.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlnegocio.Location = new System.Drawing.Point(16, 746);
-            this.pnlnegocio.Name = "pnlnegocio";
-            this.pnlnegocio.Size = new System.Drawing.Size(191, 130);
-            this.pnlnegocio.TabIndex = 29;
-            this.pnlnegocio.Visible = false;
-            // 
-            // pnlventas
-            // 
-            this.pnlventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
-            this.pnlventas.Controls.Add(this.btncliente);
-            this.pnlventas.Controls.Add(this.btnconsultasventa);
-            this.pnlventas.Controls.Add(this.btnanularventa);
-            this.pnlventas.Controls.Add(this.btnnuevaventa);
-            this.pnlventas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlventas.Location = new System.Drawing.Point(16, 571);
-            this.pnlventas.Name = "pnlventas";
-            this.pnlventas.Size = new System.Drawing.Size(191, 130);
-            this.pnlventas.TabIndex = 20;
-            this.pnlventas.Visible = false;
-            // 
-            // pnlcompras
-            // 
-            this.pnlcompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
-            this.pnlcompras.Controls.Add(this.btncotizacion);
-            this.pnlcompras.Controls.Add(this.btncuentasxpagar);
-            this.pnlcompras.Controls.Add(this.btnrecepcioncompra);
-            this.pnlcompras.Controls.Add(this.btnordencompra);
-            this.pnlcompras.Controls.Add(this.btnanularcompra);
-            this.pnlcompras.Controls.Add(this.btnnuevacompra);
-            this.pnlcompras.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlcompras.Location = new System.Drawing.Point(16, 341);
-            this.pnlcompras.Name = "pnlcompras";
-            this.pnlcompras.Size = new System.Drawing.Size(191, 190);
-            this.pnlcompras.TabIndex = 18;
-            this.pnlcompras.Visible = false;
-            // 
-            // pnlcaja
-            // 
-            this.pnlcaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
-            this.pnlcaja.Controls.Add(this.btnmovimientocaja);
-            this.pnlcaja.Controls.Add(this.btnegresos);
-            this.pnlcaja.Controls.Add(this.btningresos);
-            this.pnlcaja.Controls.Add(this.btncierracaja);
-            this.pnlcaja.Controls.Add(this.btnaperturacaja);
-            this.pnlcaja.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlcaja.Location = new System.Drawing.Point(16, 141);
-            this.pnlcaja.Name = "pnlcaja";
-            this.pnlcaja.Size = new System.Drawing.Size(191, 160);
-            this.pnlcaja.TabIndex = 16;
-            this.pnlcaja.Visible = false;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.btnlogoInicio);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(16, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(191, 101);
-            this.panel2.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(81, 49);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 16);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Los chombo.";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(81, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 16);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Minimarket";
-            // 
-            // timer2
-            // 
-            this.timer2.Enabled = true;
-            // 
-            // ttMensaje
-            // 
-            this.ttMensaje.IsBalloon = true;
-            this.ttMensaje.Popup += new System.Windows.Forms.PopupEventHandler(this.ttMensaje_Popup);
-            // 
-            // panelContenedor
-            // 
-            this.panelContenedor.AutoSize = true;
-            this.panelContenedor.BackColor = System.Drawing.Color.DarkGray;
-            this.panelContenedor.BackgroundImage = global::CapaPresentacion.Properties.Resources.cesta_compra_llena_comida_comestibles_mesa_supermercado_8087_1658;
-            this.panelContenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContenedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panelContenedor.Location = new System.Drawing.Point(224, 56);
-            this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(800, 664);
-            this.panelContenedor.TabIndex = 15;
-            this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedor_Paint);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(41, 26);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = global::CapaPresentacion.Properties.Resources.settings;
-            this.pictureBox2.Location = new System.Drawing.Point(772, 33);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 20);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // HerramientasToolStripMenuItem
             // 
@@ -485,7 +331,7 @@
             // atajosToolStripMenuItem
             // 
             this.atajosToolStripMenuItem.Name = "atajosToolStripMenuItem";
-            this.atajosToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
+            this.atajosToolStripMenuItem.Size = new System.Drawing.Size(123, 26);
             this.atajosToolStripMenuItem.Text = "Atajos";
             this.atajosToolStripMenuItem.Click += new System.EventHandler(this.atajosToolStripMenuItem_Click);
             // 
@@ -524,6 +370,44 @@
             this.iconcerrar.TabIndex = 1;
             this.iconcerrar.TabStop = false;
             this.iconcerrar.Click += new System.EventHandler(this.iconcerrar_Click);
+            // 
+            // MenuVertical
+            // 
+            this.MenuVertical.AutoScroll = true;
+            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.MenuVertical.Controls.Add(this.pnladmin);
+            this.MenuVertical.Controls.Add(this.btnMadmin);
+            this.MenuVertical.Controls.Add(this.pnlnegocio);
+            this.MenuVertical.Controls.Add(this.btnMGestion);
+            this.MenuVertical.Controls.Add(this.pnlventas);
+            this.MenuVertical.Controls.Add(this.btnMventas);
+            this.MenuVertical.Controls.Add(this.pnlcompras);
+            this.MenuVertical.Controls.Add(this.btnMcompras);
+            this.MenuVertical.Controls.Add(this.pnlcaja);
+            this.MenuVertical.Controls.Add(this.btnMcaja);
+            this.MenuVertical.Controls.Add(this.panel2);
+            this.MenuVertical.Controls.Add(this.btnMenu);
+            this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
+            this.MenuVertical.Location = new System.Drawing.Point(0, 0);
+            this.MenuVertical.Name = "MenuVertical";
+            this.MenuVertical.Size = new System.Drawing.Size(224, 755);
+            this.MenuVertical.TabIndex = 9;
+            this.MenuVertical.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuVertical_Paint);
+            // 
+            // pnladmin
+            // 
+            this.pnladmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.pnladmin.Controls.Add(this.btnusuario);
+            this.pnladmin.Controls.Add(this.btnroles);
+            this.pnladmin.Controls.Add(this.btnCargo);
+            this.pnladmin.Controls.Add(this.btnEmpleado);
+            this.pnladmin.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnladmin.Location = new System.Drawing.Point(16, 916);
+            this.pnladmin.Name = "pnladmin";
+            this.pnladmin.Size = new System.Drawing.Size(191, 134);
+            this.pnladmin.TabIndex = 12;
+            this.pnladmin.Visible = false;
+            this.pnladmin.Paint += new System.Windows.Forms.PaintEventHandler(this.pnladmin_Paint);
             // 
             // btnusuario
             // 
@@ -622,6 +506,20 @@
             this.btnMadmin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnMadmin.UseVisualStyleBackColor = true;
             this.btnMadmin.Click += new System.EventHandler(this.button4_Click_3);
+            // 
+            // pnlnegocio
+            // 
+            this.pnlnegocio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.pnlnegocio.Controls.Add(this.btnPresentacion);
+            this.pnlnegocio.Controls.Add(this.btnCategoria);
+            this.pnlnegocio.Controls.Add(this.btnProveedor);
+            this.pnlnegocio.Controls.Add(this.btnproductos);
+            this.pnlnegocio.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlnegocio.Location = new System.Drawing.Point(16, 746);
+            this.pnlnegocio.Name = "pnlnegocio";
+            this.pnlnegocio.Size = new System.Drawing.Size(191, 130);
+            this.pnlnegocio.TabIndex = 29;
+            this.pnlnegocio.Visible = false;
             // 
             // btnPresentacion
             // 
@@ -722,6 +620,20 @@
             this.btnMGestion.UseVisualStyleBackColor = true;
             this.btnMGestion.Click += new System.EventHandler(this.btnGestion_Click);
             // 
+            // pnlventas
+            // 
+            this.pnlventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.pnlventas.Controls.Add(this.btncliente);
+            this.pnlventas.Controls.Add(this.btnconsultasventa);
+            this.pnlventas.Controls.Add(this.btnanularventa);
+            this.pnlventas.Controls.Add(this.btnnuevaventa);
+            this.pnlventas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlventas.Location = new System.Drawing.Point(16, 571);
+            this.pnlventas.Name = "pnlventas";
+            this.pnlventas.Size = new System.Drawing.Size(191, 130);
+            this.pnlventas.TabIndex = 20;
+            this.pnlventas.Visible = false;
+            // 
             // btncliente
             // 
             this.btncliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -760,6 +672,7 @@
             this.btnconsultasventa.Text = "Consulta ";
             this.btnconsultasventa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnconsultasventa.UseVisualStyleBackColor = false;
+            this.btnconsultasventa.Click += new System.EventHandler(this.btnconsultasventa_Click);
             // 
             // btnanularventa
             // 
@@ -817,6 +730,22 @@
             this.btnMventas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnMventas.UseVisualStyleBackColor = true;
             this.btnMventas.Click += new System.EventHandler(this.button3_Click_3);
+            // 
+            // pnlcompras
+            // 
+            this.pnlcompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.pnlcompras.Controls.Add(this.btncotizacion);
+            this.pnlcompras.Controls.Add(this.btncuentasxpagar);
+            this.pnlcompras.Controls.Add(this.btnrecepcioncompra);
+            this.pnlcompras.Controls.Add(this.btnordencompra);
+            this.pnlcompras.Controls.Add(this.btnanularcompra);
+            this.pnlcompras.Controls.Add(this.btnnuevacompra);
+            this.pnlcompras.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlcompras.Location = new System.Drawing.Point(16, 341);
+            this.pnlcompras.Name = "pnlcompras";
+            this.pnlcompras.Size = new System.Drawing.Size(191, 190);
+            this.pnlcompras.TabIndex = 18;
+            this.pnlcompras.Visible = false;
             // 
             // btncotizacion
             // 
@@ -952,6 +881,21 @@
             this.btnMcompras.UseVisualStyleBackColor = true;
             this.btnMcompras.Click += new System.EventHandler(this.button2_Click_3);
             // 
+            // pnlcaja
+            // 
+            this.pnlcaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.pnlcaja.Controls.Add(this.btnmovimientocaja);
+            this.pnlcaja.Controls.Add(this.btnegresos);
+            this.pnlcaja.Controls.Add(this.btningresos);
+            this.pnlcaja.Controls.Add(this.btncierracaja);
+            this.pnlcaja.Controls.Add(this.btnaperturacaja);
+            this.pnlcaja.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlcaja.Location = new System.Drawing.Point(16, 141);
+            this.pnlcaja.Name = "pnlcaja";
+            this.pnlcaja.Size = new System.Drawing.Size(191, 160);
+            this.pnlcaja.TabIndex = 16;
+            this.pnlcaja.Visible = false;
+            // 
             // btnmovimientocaja
             // 
             this.btnmovimientocaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -1067,6 +1011,40 @@
             this.btnMcaja.UseVisualStyleBackColor = true;
             this.btnMcaja.Click += new System.EventHandler(this.button1_Click_4);
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.btnlogoInicio);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(16, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(191, 101);
+            this.panel2.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(81, 49);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(96, 16);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Los chombo.";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(81, 33);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(83, 16);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Minimarket";
+            // 
             // btnlogoInicio
             // 
             this.btnlogoInicio.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -1091,6 +1069,29 @@
             this.btnMenu.TabStop = false;
             this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
+            // timer2
+            // 
+            this.timer2.Enabled = true;
+            // 
+            // ttMensaje
+            // 
+            this.ttMensaje.IsBalloon = true;
+            this.ttMensaje.Popup += new System.Windows.Forms.PopupEventHandler(this.ttMensaje_Popup);
+            // 
+            // panelContenedor
+            // 
+            this.panelContenedor.AutoSize = true;
+            this.panelContenedor.BackColor = System.Drawing.Color.DarkGray;
+            this.panelContenedor.BackgroundImage = global::CapaPresentacion.Properties.Resources.cesta_compra_llena_comida_comestibles_mesa_supermercado_8087_1658;
+            this.panelContenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContenedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panelContenedor.Location = new System.Drawing.Point(224, 56);
+            this.panelContenedor.Name = "panelContenedor";
+            this.panelContenedor.Size = new System.Drawing.Size(800, 664);
+            this.panelContenedor.TabIndex = 15;
+            this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedor_Paint);
+            // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1107,10 +1108,14 @@
             this.Load += new System.EventHandler(this.FrmMenu_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.BarraTitulo.ResumeLayout(false);
             this.BarraTitulo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).EndInit();
             this.MenuVertical.ResumeLayout(false);
             this.pnladmin.ResumeLayout(false);
             this.pnlnegocio.ResumeLayout(false);
@@ -1119,10 +1124,6 @@
             this.pnlcaja.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnlogoInicio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             this.ResumeLayout(false);

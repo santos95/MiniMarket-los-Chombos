@@ -87,3 +87,10 @@ C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDa
 C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
 C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb

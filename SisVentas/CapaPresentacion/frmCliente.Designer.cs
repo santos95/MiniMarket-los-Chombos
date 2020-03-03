@@ -348,13 +348,14 @@
             // 
             this.cbGenero.FormattingEnabled = true;
             this.cbGenero.Items.AddRange(new object[] {
-            "M",
-            "F"});
+            "----------",
+            "Masculino",
+            "Femenino"});
             this.cbGenero.Location = new System.Drawing.Point(121, 135);
             this.cbGenero.Name = "cbGenero";
             this.cbGenero.Size = new System.Drawing.Size(136, 26);
             this.cbGenero.TabIndex = 45;
-            this.cbGenero.Text = "F";
+            this.cbGenero.Text = "Femenino";
             // 
             // label6
             // 

@@ -33,7 +33,7 @@ namespace CapaPresentacion
             this.ttMensaje.SetToolTip(this.TxtPassword, "Inserte su contraseña");
             this.ttMensaje.SetToolTip(this.BtnIngresar, "Para ingresar, introduzca su nombre de usuario y contraseña correctos");
             this.ttMensaje.SetToolTip(this.btnminimizar, "Minimizar");
-            this.ttMensaje.SetToolTip(this.pictureBox2, "Cerrar");
+            this.ttMensaje.SetToolTip(this.btnClose, "Cerrar");
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -217,6 +217,13 @@ namespace CapaPresentacion
 
             try
             {
+                count++;
+                if (count >= 3)
+                {
+                    this.TxtPassword.Enabled = false;
+                    this.TxtUsuario.Enabled = false;
+                }
+
                 data.DataSource = conexionlinq.accesologin(TxtUsuario.Text, TxtPassword.Text);
                 accesousuario = int.Parse(data[0, 0].Value.ToString());
                 nombreusu = data[1, 0].Value.ToString();
@@ -268,11 +275,6 @@ namespace CapaPresentacion
         }
 
 
-        private void TxtUsuario_AcceptsTabChanged(object sender, EventArgs e)
-        {
-          
-        }
-
         private void TxtUsuario_KeyDown(object sender, KeyEventArgs e)
         {
 
@@ -285,14 +287,39 @@ namespace CapaPresentacion
                     Login();
 
                     this.TxtUsuario.Text = "";
+                    this.TxtUsuario.Focus();
                     this.TxtPassword.UseSystemPasswordChar = false;
                     this.TxtPassword.Text = "Contraseña";
+                  
 
                 }
                
 
             }
             
+        }
+
+        private void TxtPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+
+            if (e.KeyCode == Keys.Enter)
+            {
+
+                if ((this.TxtPassword.Text != "Contraseña" && this.TxtPassword.Text != "") && (this.TxtUsuario.Text != "Usuario" && this.TxtUsuario.Text != ""))
+                {
+
+                    Login();
+
+                    this.TxtUsuario.Text = "";
+                    this.TxtUsuario.Focus();
+                    this.TxtPassword.UseSystemPasswordChar = false;
+                    this.TxtPassword.Text = "Contraseña";
+
+                }
+
+
+            }
+
         }
     }
 }

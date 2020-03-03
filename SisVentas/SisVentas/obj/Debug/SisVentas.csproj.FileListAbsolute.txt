@@ -635,3 +635,23 @@ C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\SisVen
 C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\SisVentas\obj\Debug\SisVentas.csproj.CopyComplete
 C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\SisVentas\obj\Debug\SisVentas.exe
 C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\SisVentas\obj\Debug\SisVentas.pdb
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\SisVentas.exe.config
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\SisVentas.exe
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\SisVentas.pdb
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\CapaPresentacion.dll
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\CapaDatos.dll
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\CapaNegocio.dll
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\CapaPresentacion.pdb
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\CapaDatos.pdb
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\CapaDatos.dll.config
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\CapaNegocio.pdb
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\obj\Debug\SisVentas.csprojAssemblyReference.cache
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\obj\Debug\SisVentas.Properties.Resources.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\obj\Debug\SisVentas.csproj.GenerateResource.cache
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\obj\Debug\SisVentas.csproj.CoreCompileInputs.cache
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\obj\Debug\SisVentas.csproj.CopyComplete
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\obj\Debug\SisVentas.exe
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\SisVentas\obj\Debug\SisVentas.pdb

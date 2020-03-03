@@ -1,7 +1,10 @@
-Create DataBase dbventasProyectTer
+USE MASTER
 GO
-Use dbventasProyectTer
-Go
+
+DROP DATABASE dbventasProyectTer
+GO
+USE dbventasProyectTer
+GO
 
 CREATE TABLE cat_persona
 (
@@ -17,8 +20,7 @@ direccion varchar(250) null
 GO
 select * from cat_persona
 
-insert into cat_persona values('00001','dvdv','da','adad',22554422,'wewwwcw','cwcwcwc')
-insert into cat_persona values('00001','papu','de la mami','adad',22554422,'wewwwcw','cwcwcwc')
+insert into cat_persona (cod_persona, cedula_ruc, nombre, apellido_sucursal, telefono, correo, direccion) values('1','001-230495-0010N','Santos Alberto','Ortiz Chávez',22554422,'santos95ortiz@gmail.com','La concha de la lora, 2c al norte, 2 al sur.');
 
 CREATE TABLE tbl_cargo
 (
@@ -31,8 +33,8 @@ estado char(1)check (estado in ('A','I'))not null
 )
 GO
 
-insert into tbl_cargo values ('taxero','ccwcwc','scscscs',GETDATE(),'A')
-insert into tbl_cargo values ('dueno de cyber','ccwcwc','scscscs',GETDATE(),'A')
+insert into tbl_cargo values ('IT','Cargo con amplios conocimientos en ITs','Cargo para la gestión y admiinstración de ITs',GETDATE(),'A');
+insert into tbl_cargo values ('Vendedor','Rol de gestión de ventas.','Encargado de llevar a cabo el proceso de venta de los artículos',GETDATE(),'A');
 
 CREATE TABLE cat_trabajador
 (
@@ -47,9 +49,9 @@ CONSTRAINT FK_persona FOREIGN KEY (persona) REFERENCES cat_persona (cod_persona)
 )
 GO
 
-select * from cat_trabajador
+select * from cat_trabajador JOIN cat_persona ON cat_trabajador.persona = cat_persona.cod_persona;
 
-insert into cat_trabajador values(1,'M','1','S','Tiempo Indefinido','A')
+insert into cat_trabajador values(1,1,'M','1','S','Tiempo Indefinido','A')
 insert into cat_trabajador values(2,'M','1','S','Tiempo Indefinido','A')  
 
 CREATE TABLE tbl_detallecargoasignado
@@ -68,7 +70,7 @@ GO
 insert into tbl_detallecargoasignado values(1,'1','Jorge','Kevin',GETDATE()) 
 insert into tbl_detallecargoasignado values(2,'1','ella','nel perro',GETDATE()) 
 
-select * from tbl_detallecargoasignado
+select * from tbl_detallecargoasignado join cat_trabajador on trabajador = cod_trabajador join cat_persona on cod_persona = persona;
 
 CREATE TABLE cat_sucursal
 (
@@ -141,7 +143,7 @@ CREATE TABLE cat_cliente
 (
 cod_cliente int PRIMARY KEY NOT NULL,
 persona int not null,
-tipo_cliente char(2) check (tipo_cliente in ('JU','NA'))not null, --Juridico, Natural
+tipo_cliente char(1) check (tipo_cliente in ('J','N'))not null, --Juridico, Natural
 genero char(1) check (genero in ('M','F','N'))not null, --Masculino , Femenino , Ninguno
 estado char(1)check (estado in ('A','I'))not null,
 CONSTRAINT FK_persona2 FOREIGN KEY (persona) REFERENCES cat_persona (cod_persona)
@@ -240,6 +242,7 @@ forma_pago varchar(20) not null, -- pago x tarjeta o contado
 cliente int NOT NULL,
 subtotal float NOT NULL,
 IVA float NOT NULL,
+descuento float NOT NULL,
 total float NOT NULL,
 fecharegistro date default getdate(),
 estado char(1)check (estado in ('A','I'))not null,
@@ -308,7 +311,7 @@ CONSTRAINT FK_rolacceso FOREIGN KEY (rolacceso) REFERENCES tbl_rolacceso (id_rol
 GO
 select * from cat_usuario
 select * from cat_trabajador
-insert into cat_usuario values(1,1,'Administrador',1234,'papu',GETDATE(),'A')
+insert into cat_usuario values(1,1,1,'Administrador',1234,'Jorge',GETDATE(),'A')
 insert into cat_usuario values(2,2,'Vendedor',12345,'papu',GETDATE(),'A')
 
 ----------------------punto 11

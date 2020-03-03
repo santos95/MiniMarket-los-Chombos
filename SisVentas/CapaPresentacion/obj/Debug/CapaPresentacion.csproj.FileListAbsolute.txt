@@ -1128,3 +1128,43 @@ C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPr
 C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
 C:\Users\Santos Ortiz\Desktop\sisventafinal 29-11-2019 17.30 pm\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Consultas.FrmConsulta_Stock_Articulos.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmArticulo.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmAyuda.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmayuda_atajos.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmPresentacion.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedor.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmRoles.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmTrabajador.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVistaCategoria_Articulo.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVista_Roles.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteFactura.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Cliente.resources

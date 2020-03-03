@@ -202,3 +202,35 @@ Create procedure query_persona
 as
 select * from cat_persona
 Go
+
+--Insertar Cliente
+
+CREATE PROCEDURE Insert_Client
+	--PARAMETROS PERSONA
+	@cedula_ruc varchar(50),
+	@nombre varchar(50),
+	@apellido_sucursal varchar(50),
+	@fechanac_fechaconstitucion varchar(50),
+	@telefono int,
+	@correo varchar(30),
+	@direccion varchar(250),
+
+	--PATRAMETROS CLIENTE
+	@tipo_cliente char(2),
+	@genero char(1),
+	@estado char(1)
+	AS
+	BEGIN
+	DECLARE  @cod_persona INT  
+	DECLARE  @cod_cliente INT
+
+	SELECT @cod_persona = ISNULL(MAX (cod_persona), 0) + 1 FROM cat_persona;
+	SELECT @cod_cliente = ISNULL(MAX (cod_persona), 0) + 1 FROM cat_cliente;
+
+	INSERT INTO cat_persona 
+	VALUES (@cod_persona, @cedula_ruc,@nombre ,@apellido_sucursal ,@fechanac_fechaconstitucion ,@telefono, @correo, @direccion);
+
+	INSERT INTO cat_cliente
+	VALUES (@cod_cliente, @cod_persona, @tipo_cliente, @genero, @estado);
+
+GO

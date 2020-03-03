@@ -549,5 +549,10 @@ namespace CapaPresentacion
             frmAyuda a = new frmAyuda();
             a.Show();
         }
+
+        private void btnconsultasventa_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Frm_Cliente());
+        }
     }
 }
