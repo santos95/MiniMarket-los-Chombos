@@ -137,7 +137,7 @@ namespace CapaPresentacion
             if (TxtUsuario.Text == "Usuario")
             {
                 TxtUsuario.Text = "";
-                TxtUsuario.ForeColor = Color.Black;
+              //  TxtUsuario.ForeColor = Color.Black;
             }
         }
 
@@ -146,7 +146,7 @@ namespace CapaPresentacion
             if (TxtUsuario.Text == "")
             {
                 TxtUsuario.Text = "Usuario";
-                TxtUsuario.ForeColor = Color.Black;
+               // TxtUsuario.ForeColor = Color.Black;
             }
         }
 
@@ -155,7 +155,7 @@ namespace CapaPresentacion
             if (TxtPassword.Text == "Contraseña")
             {
                 TxtPassword.Text = "";
-                TxtPassword.ForeColor = Color.Black;
+               // TxtPassword.ForeColor = Color.Black;
                 TxtPassword.UseSystemPasswordChar = true;
 
             }
@@ -166,7 +166,7 @@ namespace CapaPresentacion
             if (TxtPassword.Text == "")
             {
                 TxtPassword.Text = "Contraseña";
-                TxtPassword.ForeColor = Color.Black;
+               // TxtPassword.ForeColor = Color.Black;
                 TxtPassword.UseSystemPasswordChar = false;
             }
         }
@@ -232,7 +232,7 @@ namespace CapaPresentacion
                 estado.DataSource = conexionlinq.estadoconexion(codigousu);
                 estadousu = char.Parse(estado[2, 0].Value.ToString());
                 frm.Acceso = accesousuario;
-                frm.userlbl.Text = TxtUsuario.Text;
+                this.frm.btnUser.Text = this.TxtUsuario.Text;
 
                 //control de intento
                 if (data.RowCount != 0 && estadousu == 'c')
@@ -243,7 +243,7 @@ namespace CapaPresentacion
                     {
                         //   MessageBox.Show(passuser);
                         frm.Show();
-                        frm.userlbl.Text = TxtUsuario.Text;
+                        frm.btnUser.Text = TxtUsuario.Text;
                         this.Hide();
 
                     }
@@ -251,14 +251,14 @@ namespace CapaPresentacion
                     {
 
                         frm.Show();
-                        frm.userlbl.Text = TxtUsuario.Text;
+                        frm.btnUser.Text = TxtUsuario.Text;
                         this.Hide();
 
                     }
                     if (accesousuario == 3)
                     {
                         frm.Show();
-                        frm.userlbl.Text = TxtUsuario.Text;
+                        frm.btnUser.Text = TxtUsuario.Text;
                         this.Hide();
                     }
                 }
@@ -319,6 +319,16 @@ namespace CapaPresentacion
 
 
             }
+
+        }
+
+        private void TxtUsuario_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
 
         }
     }

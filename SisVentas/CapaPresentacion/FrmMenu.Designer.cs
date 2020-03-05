@@ -32,9 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenu));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.userlbl = new System.Windows.Forms.Label();
+            this.btnUser = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -94,8 +93,9 @@
             this.ttMensaje = new System.Windows.Forms.ToolTip(this.components);
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.pnlUser = new System.Windows.Forms.Panel();
+            this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -110,6 +110,8 @@
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnlogoInicio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
+            this.panelContenedor.SuspendLayout();
+            this.pnlUser.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer1
@@ -119,33 +121,33 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(255)))), ((int)(((byte)(3)))));
-            this.panel1.Controls.Add(this.userlbl);
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.panel1.Controls.Add(this.btnUser);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.lblf);
             this.panel1.Controls.Add(this.lblh);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(224, 720);
+            this.panel1.Location = new System.Drawing.Point(224, 748);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 35);
+            this.panel1.Size = new System.Drawing.Size(800, 40);
             this.panel1.TabIndex = 11;
             // 
-            // userlbl
+            // btnUser
             // 
-            this.userlbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.userlbl.AutoSize = true;
-            this.userlbl.Font = new System.Drawing.Font("Century Gothic", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userlbl.ForeColor = System.Drawing.Color.Black;
-            this.userlbl.Location = new System.Drawing.Point(50, 13);
-            this.userlbl.Name = "userlbl";
-            this.userlbl.Size = new System.Drawing.Size(47, 16);
-            this.userlbl.TabIndex = 20;
-            this.userlbl.Text = "label1";
-            this.userlbl.Click += new System.EventHandler(this.userlbl_Click);
+            this.btnUser.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUser.Font = new System.Drawing.Font("Arial Black", 10F);
+            this.btnUser.Image = global::CapaPresentacion.Properties.Resources.administrador1;
+            this.btnUser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUser.Location = new System.Drawing.Point(3, 1);
+            this.btnUser.Name = "btnUser";
+            this.btnUser.Size = new System.Drawing.Size(200, 40);
+            this.btnUser.TabIndex = 46;
+            this.btnUser.Text = "button1";
+            this.btnUser.UseVisualStyleBackColor = true;
+            this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
             // 
             // label5
             // 
@@ -154,23 +156,11 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(333, 13);
+            this.label5.Location = new System.Drawing.Point(333, 18);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(119, 16);
             this.label5.TabIndex = 45;
             this.label5.Text = "Tasa de Cambio:";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(41, 26);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label6
             // 
@@ -179,7 +169,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(458, 13);
+            this.label6.Location = new System.Drawing.Point(458, 18);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(57, 16);
             this.label6.TabIndex = 44;
@@ -192,7 +182,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(128, 13);
+            this.label3.Location = new System.Drawing.Point(128, 18);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 16);
             this.label3.TabIndex = 43;
@@ -205,7 +195,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(218, 13);
+            this.label4.Location = new System.Drawing.Point(218, 18);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 16);
             this.label4.TabIndex = 42;
@@ -218,7 +208,7 @@
             this.lblf.BackColor = System.Drawing.Color.Transparent;
             this.lblf.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblf.ForeColor = System.Drawing.Color.Black;
-            this.lblf.Location = new System.Drawing.Point(649, 13);
+            this.lblf.Location = new System.Drawing.Point(649, 18);
             this.lblf.Name = "lblf";
             this.lblf.Size = new System.Drawing.Size(51, 16);
             this.lblf.TabIndex = 40;
@@ -231,7 +221,7 @@
             this.lblh.BackColor = System.Drawing.Color.Transparent;
             this.lblh.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblh.ForeColor = System.Drawing.Color.Black;
-            this.lblh.Location = new System.Drawing.Point(739, 13);
+            this.lblh.Location = new System.Drawing.Point(739, 18);
             this.lblh.Name = "lblh";
             this.lblh.Size = new System.Drawing.Size(58, 16);
             this.lblh.TabIndex = 39;
@@ -239,7 +229,7 @@
             // 
             // BarraTitulo
             // 
-            this.BarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(255)))), ((int)(((byte)(3)))));
+            this.BarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
             this.BarraTitulo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BarraTitulo.Controls.Add(this.pictureBox2);
             this.BarraTitulo.Controls.Add(this.menuStrip1);
@@ -374,7 +364,7 @@
             // MenuVertical
             // 
             this.MenuVertical.AutoScroll = true;
-            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(69)))), ((int)(((byte)(118)))));
             this.MenuVertical.Controls.Add(this.pnladmin);
             this.MenuVertical.Controls.Add(this.btnMadmin);
             this.MenuVertical.Controls.Add(this.pnlnegocio);
@@ -390,19 +380,19 @@
             this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuVertical.Location = new System.Drawing.Point(0, 0);
             this.MenuVertical.Name = "MenuVertical";
-            this.MenuVertical.Size = new System.Drawing.Size(224, 755);
+            this.MenuVertical.Size = new System.Drawing.Size(224, 788);
             this.MenuVertical.TabIndex = 9;
             this.MenuVertical.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuVertical_Paint);
             // 
             // pnladmin
             // 
-            this.pnladmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.pnladmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
             this.pnladmin.Controls.Add(this.btnusuario);
             this.pnladmin.Controls.Add(this.btnroles);
             this.pnladmin.Controls.Add(this.btnCargo);
             this.pnladmin.Controls.Add(this.btnEmpleado);
             this.pnladmin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnladmin.Location = new System.Drawing.Point(16, 916);
+            this.pnladmin.Location = new System.Drawing.Point(16, 923);
             this.pnladmin.Name = "pnladmin";
             this.pnladmin.Size = new System.Drawing.Size(191, 134);
             this.pnladmin.TabIndex = 12;
@@ -411,12 +401,12 @@
             // 
             // btnusuario
             // 
-            this.btnusuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnusuario.BackColor = System.Drawing.Color.White;
             this.btnusuario.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnusuario.FlatAppearance.BorderSize = 0;
             this.btnusuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnusuario.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnusuario.ForeColor = System.Drawing.Color.White;
+            this.btnusuario.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnusuario.ForeColor = System.Drawing.Color.Black;
             this.btnusuario.Image = global::CapaPresentacion.Properties.Resources.id_card;
             this.btnusuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnusuario.Location = new System.Drawing.Point(0, 90);
@@ -430,12 +420,12 @@
             // 
             // btnroles
             // 
-            this.btnroles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnroles.BackColor = System.Drawing.Color.White;
             this.btnroles.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnroles.FlatAppearance.BorderSize = 0;
             this.btnroles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnroles.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnroles.ForeColor = System.Drawing.Color.White;
+            this.btnroles.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnroles.ForeColor = System.Drawing.Color.Black;
             this.btnroles.Image = global::CapaPresentacion.Properties.Resources.access;
             this.btnroles.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnroles.Location = new System.Drawing.Point(0, 60);
@@ -450,12 +440,12 @@
             // 
             // btnCargo
             // 
-            this.btnCargo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnCargo.BackColor = System.Drawing.Color.White;
             this.btnCargo.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnCargo.FlatAppearance.BorderSize = 0;
             this.btnCargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCargo.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargo.ForeColor = System.Drawing.Color.White;
+            this.btnCargo.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCargo.ForeColor = System.Drawing.Color.Black;
             this.btnCargo.Image = global::CapaPresentacion.Properties.Resources.id;
             this.btnCargo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCargo.Location = new System.Drawing.Point(0, 30);
@@ -470,12 +460,12 @@
             // 
             // btnEmpleado
             // 
-            this.btnEmpleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnEmpleado.BackColor = System.Drawing.Color.White;
             this.btnEmpleado.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnEmpleado.FlatAppearance.BorderSize = 0;
             this.btnEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEmpleado.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmpleado.ForeColor = System.Drawing.Color.White;
+            this.btnEmpleado.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpleado.ForeColor = System.Drawing.Color.Black;
             this.btnEmpleado.Image = global::CapaPresentacion.Properties.Resources.team;
             this.btnEmpleado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEmpleado.Location = new System.Drawing.Point(0, 0);
@@ -490,26 +480,27 @@
             // 
             // btnMadmin
             // 
+            this.btnMadmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
             this.btnMadmin.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMadmin.FlatAppearance.BorderSize = 0;
             this.btnMadmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMadmin.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMadmin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMadmin.ForeColor = System.Drawing.Color.White;
             this.btnMadmin.Image = global::CapaPresentacion.Properties.Resources.tie_78321;
             this.btnMadmin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMadmin.Location = new System.Drawing.Point(16, 876);
             this.btnMadmin.Name = "btnMadmin";
             this.btnMadmin.Padding = new System.Windows.Forms.Padding(0, 0, 40, 0);
-            this.btnMadmin.Size = new System.Drawing.Size(191, 40);
+            this.btnMadmin.Size = new System.Drawing.Size(191, 47);
             this.btnMadmin.TabIndex = 20;
-            this.btnMadmin.Text = "Administracion";
-            this.btnMadmin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMadmin.UseVisualStyleBackColor = true;
+            this.btnMadmin.Text = "    Administracion";
+            this.btnMadmin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMadmin.UseVisualStyleBackColor = false;
             this.btnMadmin.Click += new System.EventHandler(this.button4_Click_3);
             // 
             // pnlnegocio
             // 
-            this.pnlnegocio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.pnlnegocio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(69)))), ((int)(((byte)(118)))));
             this.pnlnegocio.Controls.Add(this.btnPresentacion);
             this.pnlnegocio.Controls.Add(this.btnCategoria);
             this.pnlnegocio.Controls.Add(this.btnProveedor);
@@ -523,12 +514,12 @@
             // 
             // btnPresentacion
             // 
-            this.btnPresentacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnPresentacion.BackColor = System.Drawing.Color.White;
             this.btnPresentacion.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnPresentacion.FlatAppearance.BorderSize = 0;
-            this.btnPresentacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPresentacion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPresentacion.ForeColor = System.Drawing.Color.White;
+            this.btnPresentacion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPresentacion.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPresentacion.ForeColor = System.Drawing.Color.Black;
             this.btnPresentacion.Image = global::CapaPresentacion.Properties.Resources.presentation_78331;
             this.btnPresentacion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPresentacion.Location = new System.Drawing.Point(0, 90);
@@ -543,12 +534,12 @@
             // 
             // btnCategoria
             // 
-            this.btnCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnCategoria.BackColor = System.Drawing.Color.White;
             this.btnCategoria.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnCategoria.FlatAppearance.BorderSize = 0;
-            this.btnCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCategoria.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCategoria.ForeColor = System.Drawing.Color.White;
+            this.btnCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCategoria.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCategoria.ForeColor = System.Drawing.Color.Black;
             this.btnCategoria.Image = global::CapaPresentacion.Properties.Resources.box;
             this.btnCategoria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCategoria.Location = new System.Drawing.Point(0, 60);
@@ -563,12 +554,12 @@
             // 
             // btnProveedor
             // 
-            this.btnProveedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnProveedor.BackColor = System.Drawing.Color.White;
             this.btnProveedor.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnProveedor.FlatAppearance.BorderSize = 0;
-            this.btnProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProveedor.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProveedor.ForeColor = System.Drawing.Color.White;
+            this.btnProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnProveedor.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProveedor.ForeColor = System.Drawing.Color.Black;
             this.btnProveedor.Image = global::CapaPresentacion.Properties.Resources.boss;
             this.btnProveedor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProveedor.Location = new System.Drawing.Point(0, 30);
@@ -583,12 +574,12 @@
             // 
             // btnproductos
             // 
-            this.btnproductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnproductos.BackColor = System.Drawing.Color.White;
             this.btnproductos.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnproductos.FlatAppearance.BorderSize = 0;
-            this.btnproductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnproductos.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnproductos.ForeColor = System.Drawing.Color.White;
+            this.btnproductos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnproductos.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnproductos.ForeColor = System.Drawing.Color.Black;
             this.btnproductos.Image = global::CapaPresentacion.Properties.Resources.fruits_vegetables_10762;
             this.btnproductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnproductos.Location = new System.Drawing.Point(0, 0);
@@ -603,10 +594,11 @@
             // 
             // btnMGestion
             // 
+            this.btnMGestion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(69)))), ((int)(((byte)(118)))));
             this.btnMGestion.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMGestion.FlatAppearance.BorderSize = 0;
             this.btnMGestion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMGestion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMGestion.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMGestion.ForeColor = System.Drawing.Color.White;
             this.btnMGestion.Image = global::CapaPresentacion.Properties.Resources.candidate;
             this.btnMGestion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -615,19 +607,19 @@
             this.btnMGestion.Padding = new System.Windows.Forms.Padding(0, 0, 40, 0);
             this.btnMGestion.Size = new System.Drawing.Size(191, 45);
             this.btnMGestion.TabIndex = 17;
-            this.btnMGestion.Text = "Gestion negocio";
-            this.btnMGestion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMGestion.UseVisualStyleBackColor = true;
+            this.btnMGestion.Text = "       Gestion de        negocio";
+            this.btnMGestion.UseVisualStyleBackColor = false;
             this.btnMGestion.Click += new System.EventHandler(this.btnGestion_Click);
             // 
             // pnlventas
             // 
-            this.pnlventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.pnlventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(7)))), ((int)(((byte)(31)))));
             this.pnlventas.Controls.Add(this.btncliente);
             this.pnlventas.Controls.Add(this.btnconsultasventa);
             this.pnlventas.Controls.Add(this.btnanularventa);
             this.pnlventas.Controls.Add(this.btnnuevaventa);
             this.pnlventas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlventas.ForeColor = System.Drawing.Color.Coral;
             this.pnlventas.Location = new System.Drawing.Point(16, 571);
             this.pnlventas.Name = "pnlventas";
             this.pnlventas.Size = new System.Drawing.Size(191, 130);
@@ -636,12 +628,12 @@
             // 
             // btncliente
             // 
-            this.btncliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btncliente.BackColor = System.Drawing.Color.White;
             this.btncliente.Dock = System.Windows.Forms.DockStyle.Top;
             this.btncliente.FlatAppearance.BorderSize = 0;
-            this.btncliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncliente.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncliente.ForeColor = System.Drawing.Color.White;
+            this.btncliente.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btncliente.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncliente.ForeColor = System.Drawing.Color.Black;
             this.btncliente.Image = global::CapaPresentacion.Properties.Resources.hombre2;
             this.btncliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btncliente.Location = new System.Drawing.Point(0, 90);
@@ -656,12 +648,12 @@
             // 
             // btnconsultasventa
             // 
-            this.btnconsultasventa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnconsultasventa.BackColor = System.Drawing.Color.White;
             this.btnconsultasventa.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnconsultasventa.FlatAppearance.BorderSize = 0;
-            this.btnconsultasventa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnconsultasventa.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnconsultasventa.ForeColor = System.Drawing.Color.White;
+            this.btnconsultasventa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnconsultasventa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnconsultasventa.ForeColor = System.Drawing.Color.Black;
             this.btnconsultasventa.Image = global::CapaPresentacion.Properties.Resources.document1;
             this.btnconsultasventa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnconsultasventa.Location = new System.Drawing.Point(0, 60);
@@ -676,12 +668,12 @@
             // 
             // btnanularventa
             // 
-            this.btnanularventa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnanularventa.BackColor = System.Drawing.Color.White;
             this.btnanularventa.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnanularventa.FlatAppearance.BorderSize = 0;
-            this.btnanularventa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnanularventa.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnanularventa.ForeColor = System.Drawing.Color.White;
+            this.btnanularventa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnanularventa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnanularventa.ForeColor = System.Drawing.Color.Black;
             this.btnanularventa.Image = global::CapaPresentacion.Properties.Resources.Bagcancel_icon_icons_com_51212;
             this.btnanularventa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnanularventa.Location = new System.Drawing.Point(0, 30);
@@ -695,12 +687,12 @@
             // 
             // btnnuevaventa
             // 
-            this.btnnuevaventa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnnuevaventa.BackColor = System.Drawing.Color.White;
             this.btnnuevaventa.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnnuevaventa.FlatAppearance.BorderSize = 0;
-            this.btnnuevaventa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnnuevaventa.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnnuevaventa.ForeColor = System.Drawing.Color.White;
+            this.btnnuevaventa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnnuevaventa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnnuevaventa.ForeColor = System.Drawing.Color.Black;
             this.btnnuevaventa.Image = global::CapaPresentacion.Properties.Resources.BagOK_icon_icons_com_51210;
             this.btnnuevaventa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnnuevaventa.Location = new System.Drawing.Point(0, 0);
@@ -714,10 +706,11 @@
             // 
             // btnMventas
             // 
+            this.btnMventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(7)))), ((int)(((byte)(31)))));
             this.btnMventas.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMventas.FlatAppearance.BorderSize = 0;
             this.btnMventas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMventas.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMventas.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMventas.ForeColor = System.Drawing.Color.White;
             this.btnMventas.Image = global::CapaPresentacion.Properties.Resources.health_check;
             this.btnMventas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -728,12 +721,12 @@
             this.btnMventas.TabIndex = 19;
             this.btnMventas.Text = "Ventas";
             this.btnMventas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMventas.UseVisualStyleBackColor = true;
+            this.btnMventas.UseVisualStyleBackColor = false;
             this.btnMventas.Click += new System.EventHandler(this.button3_Click_3);
             // 
             // pnlcompras
             // 
-            this.pnlcompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.pnlcompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(88)))), ((int)(((byte)(7)))));
             this.pnlcompras.Controls.Add(this.btncotizacion);
             this.pnlcompras.Controls.Add(this.btncuentasxpagar);
             this.pnlcompras.Controls.Add(this.btnrecepcioncompra);
@@ -749,12 +742,12 @@
             // 
             // btncotizacion
             // 
-            this.btncotizacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btncotizacion.BackColor = System.Drawing.Color.White;
             this.btncotizacion.Dock = System.Windows.Forms.DockStyle.Top;
             this.btncotizacion.FlatAppearance.BorderSize = 0;
-            this.btncotizacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncotizacion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncotizacion.ForeColor = System.Drawing.Color.White;
+            this.btncotizacion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btncotizacion.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncotizacion.ForeColor = System.Drawing.Color.Black;
             this.btncotizacion.Image = global::CapaPresentacion.Properties.Resources._1486564172_finance_loan_money_81492;
             this.btncotizacion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btncotizacion.Location = new System.Drawing.Point(0, 150);
@@ -768,12 +761,12 @@
             // 
             // btncuentasxpagar
             // 
-            this.btncuentasxpagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btncuentasxpagar.BackColor = System.Drawing.Color.White;
             this.btncuentasxpagar.Dock = System.Windows.Forms.DockStyle.Top;
             this.btncuentasxpagar.FlatAppearance.BorderSize = 0;
-            this.btncuentasxpagar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncuentasxpagar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncuentasxpagar.ForeColor = System.Drawing.Color.White;
+            this.btncuentasxpagar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btncuentasxpagar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncuentasxpagar.ForeColor = System.Drawing.Color.Black;
             this.btncuentasxpagar.Image = global::CapaPresentacion.Properties.Resources.business_color_payment_icon_icons_com_53442;
             this.btncuentasxpagar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btncuentasxpagar.Location = new System.Drawing.Point(0, 120);
@@ -781,18 +774,18 @@
             this.btncuentasxpagar.Padding = new System.Windows.Forms.Padding(0, 0, 40, 0);
             this.btncuentasxpagar.Size = new System.Drawing.Size(191, 30);
             this.btncuentasxpagar.TabIndex = 15;
-            this.btncuentasxpagar.Text = "Cuentas x pagar";
+            this.btncuentasxpagar.Text = "      Cuentas x pagar";
             this.btncuentasxpagar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btncuentasxpagar.UseVisualStyleBackColor = false;
             // 
             // btnrecepcioncompra
             // 
-            this.btnrecepcioncompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnrecepcioncompra.BackColor = System.Drawing.Color.White;
             this.btnrecepcioncompra.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnrecepcioncompra.FlatAppearance.BorderSize = 0;
-            this.btnrecepcioncompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnrecepcioncompra.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnrecepcioncompra.ForeColor = System.Drawing.Color.White;
+            this.btnrecepcioncompra.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnrecepcioncompra.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnrecepcioncompra.ForeColor = System.Drawing.Color.Black;
             this.btnrecepcioncompra.Image = global::CapaPresentacion.Properties.Resources._1485476036_artboard_1_78544;
             this.btnrecepcioncompra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnrecepcioncompra.Location = new System.Drawing.Point(0, 90);
@@ -806,12 +799,12 @@
             // 
             // btnordencompra
             // 
-            this.btnordencompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnordencompra.BackColor = System.Drawing.Color.White;
             this.btnordencompra.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnordencompra.FlatAppearance.BorderSize = 0;
-            this.btnordencompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnordencompra.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnordencompra.ForeColor = System.Drawing.Color.White;
+            this.btnordencompra.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnordencompra.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnordencompra.ForeColor = System.Drawing.Color.Black;
             this.btnordencompra.Image = global::CapaPresentacion.Properties.Resources.note_edit_12872;
             this.btnordencompra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnordencompra.Location = new System.Drawing.Point(0, 60);
@@ -825,12 +818,12 @@
             // 
             // btnanularcompra
             // 
-            this.btnanularcompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnanularcompra.BackColor = System.Drawing.Color.White;
             this.btnanularcompra.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnanularcompra.FlatAppearance.BorderSize = 0;
-            this.btnanularcompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnanularcompra.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnanularcompra.ForeColor = System.Drawing.Color.White;
+            this.btnanularcompra.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnanularcompra.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnanularcompra.ForeColor = System.Drawing.Color.Black;
             this.btnanularcompra.Image = global::CapaPresentacion.Properties.Resources.ic_shopping_cart_128_28698;
             this.btnanularcompra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnanularcompra.Location = new System.Drawing.Point(0, 30);
@@ -844,12 +837,12 @@
             // 
             // btnnuevacompra
             // 
-            this.btnnuevacompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnnuevacompra.BackColor = System.Drawing.Color.White;
             this.btnnuevacompra.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnnuevacompra.FlatAppearance.BorderSize = 0;
-            this.btnnuevacompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnnuevacompra.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnnuevacompra.ForeColor = System.Drawing.Color.White;
+            this.btnnuevacompra.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnnuevacompra.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnnuevacompra.ForeColor = System.Drawing.Color.Black;
             this.btnnuevacompra.Image = global::CapaPresentacion.Properties.Resources.ic_local_grocery_store_128_28460;
             this.btnnuevacompra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnnuevacompra.Location = new System.Drawing.Point(0, 0);
@@ -864,10 +857,11 @@
             // 
             // btnMcompras
             // 
+            this.btnMcompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(88)))), ((int)(((byte)(7)))));
             this.btnMcompras.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMcompras.FlatAppearance.BorderSize = 0;
             this.btnMcompras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMcompras.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMcompras.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMcompras.ForeColor = System.Drawing.Color.White;
             this.btnMcompras.Image = global::CapaPresentacion.Properties.Resources.mailbox32;
             this.btnMcompras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -878,12 +872,12 @@
             this.btnMcompras.TabIndex = 17;
             this.btnMcompras.Text = "Compras";
             this.btnMcompras.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMcompras.UseVisualStyleBackColor = true;
+            this.btnMcompras.UseVisualStyleBackColor = false;
             this.btnMcompras.Click += new System.EventHandler(this.button2_Click_3);
             // 
             // pnlcaja
             // 
-            this.pnlcaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.pnlcaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.pnlcaja.Controls.Add(this.btnmovimientocaja);
             this.pnlcaja.Controls.Add(this.btnegresos);
             this.pnlcaja.Controls.Add(this.btningresos);
@@ -898,12 +892,12 @@
             // 
             // btnmovimientocaja
             // 
-            this.btnmovimientocaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnmovimientocaja.BackColor = System.Drawing.Color.White;
             this.btnmovimientocaja.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnmovimientocaja.FlatAppearance.BorderSize = 0;
-            this.btnmovimientocaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmovimientocaja.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnmovimientocaja.ForeColor = System.Drawing.Color.Azure;
+            this.btnmovimientocaja.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnmovimientocaja.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmovimientocaja.ForeColor = System.Drawing.Color.Black;
             this.btnmovimientocaja.Image = global::CapaPresentacion.Properties.Resources._1486506281_hierarchy_organization_team_diagram_order_hierarchical_structure_teamwork_81472;
             this.btnmovimientocaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnmovimientocaja.Location = new System.Drawing.Point(0, 120);
@@ -917,12 +911,12 @@
             // 
             // btnegresos
             // 
-            this.btnegresos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnegresos.BackColor = System.Drawing.Color.White;
             this.btnegresos.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnegresos.FlatAppearance.BorderSize = 0;
-            this.btnegresos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnegresos.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnegresos.ForeColor = System.Drawing.Color.Azure;
+            this.btnegresos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnegresos.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnegresos.ForeColor = System.Drawing.Color.Black;
             this.btnegresos.Image = global::CapaPresentacion.Properties.Resources.access1;
             this.btnegresos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnegresos.Location = new System.Drawing.Point(0, 90);
@@ -936,12 +930,12 @@
             // 
             // btningresos
             // 
-            this.btningresos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btningresos.BackColor = System.Drawing.Color.White;
             this.btningresos.Dock = System.Windows.Forms.DockStyle.Top;
             this.btningresos.FlatAppearance.BorderSize = 0;
-            this.btningresos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btningresos.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btningresos.ForeColor = System.Drawing.Color.Azure;
+            this.btningresos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btningresos.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btningresos.ForeColor = System.Drawing.Color.Black;
             this.btningresos.Image = global::CapaPresentacion.Properties.Resources._1486564172_finance_loan_money_814921;
             this.btningresos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btningresos.Location = new System.Drawing.Point(0, 60);
@@ -956,12 +950,12 @@
             // 
             // btncierracaja
             // 
-            this.btncierracaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btncierracaja.BackColor = System.Drawing.Color.White;
             this.btncierracaja.Dock = System.Windows.Forms.DockStyle.Top;
             this.btncierracaja.FlatAppearance.BorderSize = 0;
-            this.btncierracaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncierracaja.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncierracaja.ForeColor = System.Drawing.Color.Azure;
+            this.btncierracaja.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btncierracaja.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncierracaja.ForeColor = System.Drawing.Color.Black;
             this.btncierracaja.Image = global::CapaPresentacion.Properties.Resources.Pay_per_Click__PPC__icon_icons_com_53742;
             this.btncierracaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btncierracaja.Location = new System.Drawing.Point(0, 30);
@@ -969,18 +963,17 @@
             this.btncierracaja.Padding = new System.Windows.Forms.Padding(0, 0, 50, 0);
             this.btncierracaja.Size = new System.Drawing.Size(191, 30);
             this.btncierracaja.TabIndex = 26;
-            this.btncierracaja.Text = "Cierre de caja";
-            this.btncierracaja.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btncierracaja.Text = "   Cierre ";
             this.btncierracaja.UseVisualStyleBackColor = false;
             // 
             // btnaperturacaja
             // 
-            this.btnaperturacaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnaperturacaja.BackColor = System.Drawing.Color.White;
             this.btnaperturacaja.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnaperturacaja.FlatAppearance.BorderSize = 0;
-            this.btnaperturacaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnaperturacaja.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnaperturacaja.ForeColor = System.Drawing.Color.Azure;
+            this.btnaperturacaja.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnaperturacaja.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnaperturacaja.ForeColor = System.Drawing.Color.Black;
             this.btnaperturacaja.Image = global::CapaPresentacion.Properties.Resources.atm1;
             this.btnaperturacaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnaperturacaja.Location = new System.Drawing.Point(0, 0);
@@ -988,16 +981,16 @@
             this.btnaperturacaja.Padding = new System.Windows.Forms.Padding(0, 0, 41, 0);
             this.btnaperturacaja.Size = new System.Drawing.Size(191, 30);
             this.btnaperturacaja.TabIndex = 25;
-            this.btnaperturacaja.Text = "Apertura de caja";
-            this.btnaperturacaja.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnaperturacaja.Text = "     Apertura ";
             this.btnaperturacaja.UseVisualStyleBackColor = false;
             // 
             // btnMcaja
             // 
+            this.btnMcaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnMcaja.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMcaja.FlatAppearance.BorderSize = 0;
             this.btnMcaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMcaja.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMcaja.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMcaja.ForeColor = System.Drawing.Color.White;
             this.btnMcaja.Image = global::CapaPresentacion.Properties.Resources.cashregister_106599;
             this.btnMcaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1006,14 +999,14 @@
             this.btnMcaja.Padding = new System.Windows.Forms.Padding(0, 0, 90, 0);
             this.btnMcaja.Size = new System.Drawing.Size(191, 40);
             this.btnMcaja.TabIndex = 2;
-            this.btnMcaja.Text = "Caja";
+            this.btnMcaja.Text = "         Caja";
             this.btnMcaja.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMcaja.UseVisualStyleBackColor = true;
+            this.btnMcaja.UseVisualStyleBackColor = false;
             this.btnMcaja.Click += new System.EventHandler(this.button1_Click_4);
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(136)))), ((int)(((byte)(8)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(69)))), ((int)(((byte)(118)))));
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.btnlogoInicio);
@@ -1049,9 +1042,9 @@
             // 
             this.btnlogoInicio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnlogoInicio.Image = ((System.Drawing.Image)(resources.GetObject("btnlogoInicio.Image")));
-            this.btnlogoInicio.Location = new System.Drawing.Point(-13, 9);
+            this.btnlogoInicio.Location = new System.Drawing.Point(6, 9);
             this.btnlogoInicio.Name = "btnlogoInicio";
-            this.btnlogoInicio.Size = new System.Drawing.Size(74, 77);
+            this.btnlogoInicio.Size = new System.Drawing.Size(67, 77);
             this.btnlogoInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnlogoInicio.TabIndex = 1;
             this.btnlogoInicio.TabStop = false;
@@ -1059,11 +1052,12 @@
             // 
             // btnMenu
             // 
+            this.btnMenu.BackColor = System.Drawing.Color.White;
             this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnMenu.Location = new System.Drawing.Point(0, 0);
             this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(16, 1050);
+            this.btnMenu.Size = new System.Drawing.Size(16, 1057);
             this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMenu.TabIndex = 0;
             this.btnMenu.TabStop = false;
@@ -1084,19 +1078,46 @@
             this.panelContenedor.BackColor = System.Drawing.Color.DarkGray;
             this.panelContenedor.BackgroundImage = global::CapaPresentacion.Properties.Resources.cesta_compra_llena_comida_comestibles_mesa_supermercado_8087_1658;
             this.panelContenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelContenedor.Controls.Add(this.pnlUser);
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContenedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelContenedor.Location = new System.Drawing.Point(224, 56);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(800, 664);
+            this.panelContenedor.Size = new System.Drawing.Size(800, 692);
             this.panelContenedor.TabIndex = 15;
             this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedor_Paint);
+            // 
+            // pnlUser
+            // 
+            this.pnlUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(69)))), ((int)(((byte)(118)))));
+            this.pnlUser.Controls.Add(this.btnCerrarSesion);
+            this.pnlUser.Location = new System.Drawing.Point(3, 627);
+            this.pnlUser.Name = "pnlUser";
+            this.pnlUser.Size = new System.Drawing.Size(200, 47);
+            this.pnlUser.TabIndex = 0;
+            // 
+            // btnCerrarSesion
+            // 
+            this.btnCerrarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.btnCerrarSesion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCerrarSesion.Font = new System.Drawing.Font("Arial Black", 10F);
+            this.btnCerrarSesion.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnCerrarSesion.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarSesion.Image")));
+            this.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCerrarSesion.Location = new System.Drawing.Point(3, 3);
+            this.btnCerrarSesion.Name = "btnCerrarSesion";
+            this.btnCerrarSesion.Size = new System.Drawing.Size(195, 40);
+            this.btnCerrarSesion.TabIndex = 47;
+            this.btnCerrarSesion.Text = "  Cerrar Sesion";
+            this.btnCerrarSesion.UseVisualStyleBackColor = false;
+            this.btnCerrarSesion.Click += new System.EventHandler(this.button1_Click_5);
             // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1024, 755);
+            this.ClientSize = new System.Drawing.Size(1024, 788);
             this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.BarraTitulo);
@@ -1108,7 +1129,6 @@
             this.Load += new System.EventHandler(this.FrmMenu_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.BarraTitulo.ResumeLayout(false);
             this.BarraTitulo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -1126,6 +1146,8 @@
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnlogoInicio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
+            this.panelContenedor.ResumeLayout(false);
+            this.pnlUser.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1134,7 +1156,6 @@
         #endregion
 
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox btnMenu;
         private System.Windows.Forms.PictureBox iconminimizar;
         private System.Windows.Forms.PictureBox iconcerrar;
@@ -1153,7 +1174,6 @@
         private System.Windows.Forms.ToolStripMenuItem cALCULADORAToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exelToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox2;
-        public System.Windows.Forms.Label userlbl;
         private System.IO.Ports.SerialPort serialPort1;
         private System.Windows.Forms.ToolStripMenuItem atajosToolStripMenuItem;
         private System.Windows.Forms.Label label5;
@@ -1197,5 +1217,8 @@
         private System.Windows.Forms.Button btnanularcompra;
         private System.Windows.Forms.Button btnnuevacompra;
         private System.Windows.Forms.Button btnMcompras;
+        public System.Windows.Forms.Button btnUser;
+        private System.Windows.Forms.Panel pnlUser;
+        public System.Windows.Forms.Button btnCerrarSesion;
     }
 }

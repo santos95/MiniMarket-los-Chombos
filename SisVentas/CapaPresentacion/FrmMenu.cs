@@ -25,9 +25,9 @@ namespace CapaPresentacion
             this.ttMensaje.SetToolTip(this.iconminimizar, "Minimizar");
             this.ttMensaje.SetToolTip(this.iconcerrar, "Cerrar");
             this.ttMensaje.SetToolTip(this.btnMenu, "Minimizar iconos");
-            this.ttMensaje.SetToolTip(this.pictureBox1, "Cerrar sesion ");
             this.ttMensaje.SetToolTip(this.btnMcaja, "Despleglar modulos de caja");
             this.ttMensaje.SetToolTip(this.btnaperturacaja, "Abrir caja");
+            this.pnlUser.Hide();
 
         }
 
@@ -100,6 +100,7 @@ namespace CapaPresentacion
                 this.btnnuevaventa.Enabled = true;
                 this.btnnuevacompra.Enabled = true;
                 this.btnanularcompra.Enabled = true;
+               
                 //this.btnaprobarcompra.Enabled = true;
             }
             //cajero, vendedor
@@ -553,6 +554,27 @@ namespace CapaPresentacion
         private void btnconsultasventa_Click(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new Frm_Cliente());
+        }
+
+        private void button1_Click_5(object sender, EventArgs e)
+        {
+
+            if (MessageBox.Show("¿Desea cerrar la sesión?", "Advertencia", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                Application.Restart();
+
+        }
+
+        private void btnUser_Click(object sender, EventArgs e)
+        {
+
+            //desplegar boton Cerrar sesion
+            if (this.pnlUser.Visible == false)
+                this.pnlUser.Visible = true;
+            else
+                this.pnlUser.Visible = false;
+
+           
+
         }
     }
 }
