@@ -41,15 +41,15 @@
             this.cmbGenero = new System.Windows.Forms.ComboBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblCorreo = new System.Windows.Forms.Label();
+            this.lblTelefono = new System.Windows.Forms.Label();
+            this.lblDireccion = new System.Windows.Forms.Label();
+            this.lblIdent = new System.Windows.Forms.Label();
+            this.lblTipoIdent = new System.Windows.Forms.Label();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.lblGenero = new System.Windows.Forms.Label();
+            this.lblApellido = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
             this.cmbTipoCliente = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -106,15 +106,15 @@
             this.tabPage2.Controls.Add(this.cmbGenero);
             this.tabPage2.Controls.Add(this.txtApellido);
             this.tabPage2.Controls.Add(this.txtNombre);
-            this.tabPage2.Controls.Add(this.label10);
-            this.tabPage2.Controls.Add(this.label9);
-            this.tabPage2.Controls.Add(this.label8);
-            this.tabPage2.Controls.Add(this.label7);
-            this.tabPage2.Controls.Add(this.label6);
-            this.tabPage2.Controls.Add(this.label5);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Controls.Add(this.label2);
+            this.tabPage2.Controls.Add(this.lblCorreo);
+            this.tabPage2.Controls.Add(this.lblTelefono);
+            this.tabPage2.Controls.Add(this.lblDireccion);
+            this.tabPage2.Controls.Add(this.lblIdent);
+            this.tabPage2.Controls.Add(this.lblTipoIdent);
+            this.tabPage2.Controls.Add(this.lblFecha);
+            this.tabPage2.Controls.Add(this.lblGenero);
+            this.tabPage2.Controls.Add(this.lblApellido);
+            this.tabPage2.Controls.Add(this.lblNombre);
             this.tabPage2.Controls.Add(this.cmbTipoCliente);
             this.tabPage2.Controls.Add(this.label1);
             this.tabPage2.Controls.Add(this.panel1);
@@ -161,9 +161,9 @@
             // 
             this.cmbTipoIdent.FormattingEnabled = true;
             this.cmbTipoIdent.Items.AddRange(new object[] {
+            "RUC",
             "Cédula",
-            "Pasaporte",
-            "RUC"});
+            "Pasaporte"});
             this.cmbTipoIdent.Location = new System.Drawing.Point(401, 230);
             this.cmbTipoIdent.Name = "cmbTipoIdent";
             this.cmbTipoIdent.Size = new System.Drawing.Size(140, 29);
@@ -202,95 +202,95 @@
             this.txtNombre.Size = new System.Drawing.Size(361, 27);
             this.txtNombre.TabIndex = 13;
             // 
-            // label10
+            // lblCorreo
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.SystemColors.Control;
-            this.label10.Location = new System.Drawing.Point(224, 420);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(60, 21);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "E-Mail:";
+            this.lblCorreo.AutoSize = true;
+            this.lblCorreo.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblCorreo.Location = new System.Drawing.Point(224, 420);
+            this.lblCorreo.Name = "lblCorreo";
+            this.lblCorreo.Size = new System.Drawing.Size(60, 21);
+            this.lblCorreo.TabIndex = 12;
+            this.lblCorreo.Text = "E-Mail:";
             // 
-            // label9
+            // lblTelefono
             // 
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.SystemColors.Control;
-            this.label9.Location = new System.Drawing.Point(224, 380);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(80, 21);
-            this.label9.TabIndex = 11;
-            this.label9.Text = "Teléfono:";
+            this.lblTelefono.AutoSize = true;
+            this.lblTelefono.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblTelefono.Location = new System.Drawing.Point(224, 380);
+            this.lblTelefono.Name = "lblTelefono";
+            this.lblTelefono.Size = new System.Drawing.Size(80, 21);
+            this.lblTelefono.TabIndex = 11;
+            this.lblTelefono.Text = "Teléfono:";
             // 
-            // label8
+            // lblDireccion
             // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.SystemColors.Control;
-            this.label8.Location = new System.Drawing.Point(224, 310);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(97, 21);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "Direccción:";
+            this.lblDireccion.AutoSize = true;
+            this.lblDireccion.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblDireccion.Location = new System.Drawing.Point(224, 310);
+            this.lblDireccion.Name = "lblDireccion";
+            this.lblDireccion.Size = new System.Drawing.Size(97, 21);
+            this.lblDireccion.TabIndex = 10;
+            this.lblDireccion.Text = "Direccción:";
             // 
-            // label7
+            // lblIdent
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(224, 270);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(163, 21);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "# de Identificación:";
+            this.lblIdent.AutoSize = true;
+            this.lblIdent.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblIdent.Location = new System.Drawing.Point(224, 270);
+            this.lblIdent.Name = "lblIdent";
+            this.lblIdent.Size = new System.Drawing.Size(163, 21);
+            this.lblIdent.TabIndex = 9;
+            this.lblIdent.Text = "# de Identificación:";
             // 
-            // label6
+            // lblTipoIdent
             // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(224, 230);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(179, 21);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Tipo de Identificación";
+            this.lblTipoIdent.AutoSize = true;
+            this.lblTipoIdent.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblTipoIdent.Location = new System.Drawing.Point(224, 230);
+            this.lblTipoIdent.Name = "lblTipoIdent";
+            this.lblTipoIdent.Size = new System.Drawing.Size(179, 21);
+            this.lblTipoIdent.TabIndex = 8;
+            this.lblTipoIdent.Text = "Tipo de Identificación";
             // 
-            // label5
+            // lblFecha
             // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(224, 190);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(158, 21);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Fecha Nacimiento:";
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblFecha.Location = new System.Drawing.Point(224, 190);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(158, 21);
+            this.lblFecha.TabIndex = 7;
+            this.lblFecha.Text = "Fecha Nacimiento:";
             // 
-            // label4
+            // lblGenero
             // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(224, 150);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 21);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Género:";
+            this.lblGenero.AutoSize = true;
+            this.lblGenero.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblGenero.Location = new System.Drawing.Point(224, 150);
+            this.lblGenero.Name = "lblGenero";
+            this.lblGenero.Size = new System.Drawing.Size(73, 21);
+            this.lblGenero.TabIndex = 6;
+            this.lblGenero.Text = "Género:";
             // 
-            // label3
+            // lblApellido
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(224, 110);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 21);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Apellido:";
+            this.lblApellido.AutoSize = true;
+            this.lblApellido.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblApellido.Location = new System.Drawing.Point(224, 110);
+            this.lblApellido.Name = "lblApellido";
+            this.lblApellido.Size = new System.Drawing.Size(78, 21);
+            this.lblApellido.TabIndex = 5;
+            this.lblApellido.Text = "Apellido:";
             // 
-            // label2
+            // lblNombre
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(224, 70);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 21);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Nombre:";
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblNombre.Location = new System.Drawing.Point(224, 70);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(77, 21);
+            this.lblNombre.TabIndex = 4;
+            this.lblNombre.Text = "Nombre:";
             // 
             // cmbTipoCliente
             // 
@@ -302,6 +302,7 @@
             this.cmbTipoCliente.Name = "cmbTipoCliente";
             this.cmbTipoCliente.Size = new System.Drawing.Size(208, 29);
             this.cmbTipoCliente.TabIndex = 3;
+            this.cmbTipoCliente.SelectedIndexChanged += new System.EventHandler(this.cmbTipoCliente_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -472,15 +473,15 @@
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbTipoCliente;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblCorreo;
+        private System.Windows.Forms.Label lblTelefono;
+        private System.Windows.Forms.Label lblDireccion;
+        private System.Windows.Forms.Label lblIdent;
+        private System.Windows.Forms.Label lblTipoIdent;
+        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.Label lblGenero;
+        private System.Windows.Forms.Label lblApellido;
+        private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.ComboBox cmbGenero;
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.TextBox txtNombre;

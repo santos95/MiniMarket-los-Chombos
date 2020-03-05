@@ -267,22 +267,23 @@
             this.AyudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(3, 9);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(344, 40);
+            this.menuStrip1.Size = new System.Drawing.Size(334, 40);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // HerramientasToolStripMenuItem
             // 
+            this.HerramientasToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
             this.HerramientasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cALCULADORAToolStripMenuItem,
             this.exelToolStripMenuItem});
-            this.HerramientasToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HerramientasToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HerramientasToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.HerramientasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("HerramientasToolStripMenuItem.Image")));
             this.HerramientasToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.HerramientasToolStripMenuItem.Name = "HerramientasToolStripMenuItem";
-            this.HerramientasToolStripMenuItem.Size = new System.Drawing.Size(152, 36);
+            this.HerramientasToolStripMenuItem.Size = new System.Drawing.Size(148, 36);
             this.HerramientasToolStripMenuItem.Text = "Herramientas ";
             this.HerramientasToolStripMenuItem.Click += new System.EventHandler(this.HerramientasToolStripMenuItem_Click);
             // 
@@ -292,7 +293,7 @@
             this.cALCULADORAToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.calculator;
             this.cALCULADORAToolStripMenuItem.Name = "cALCULADORAToolStripMenuItem";
             this.cALCULADORAToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.C)));
-            this.cALCULADORAToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.cALCULADORAToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cALCULADORAToolStripMenuItem.Text = "Calculadora";
             this.cALCULADORAToolStripMenuItem.Click += new System.EventHandler(this.cALCULADORAToolStripMenuItem_Click);
             // 
@@ -302,7 +303,7 @@
             this.exelToolStripMenuItem.Image = global::CapaPresentacion.Properties.Resources.excel;
             this.exelToolStripMenuItem.Name = "exelToolStripMenuItem";
             this.exelToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.E)));
-            this.exelToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.exelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exelToolStripMenuItem.Text = "Excel";
             this.exelToolStripMenuItem.Click += new System.EventHandler(this.exelToolStripMenuItem_Click);
             // 
@@ -310,28 +311,28 @@
             // 
             this.QuiaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.atajosToolStripMenuItem});
-            this.QuiaToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QuiaToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QuiaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("QuiaToolStripMenuItem.Image")));
             this.QuiaToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.QuiaToolStripMenuItem.Name = "QuiaToolStripMenuItem";
-            this.QuiaToolStripMenuItem.Size = new System.Drawing.Size(86, 36);
+            this.QuiaToolStripMenuItem.Size = new System.Drawing.Size(83, 36);
             this.QuiaToolStripMenuItem.Text = "Guia";
             this.QuiaToolStripMenuItem.Click += new System.EventHandler(this.QuiaToolStripMenuItem_Click);
             // 
             // atajosToolStripMenuItem
             // 
             this.atajosToolStripMenuItem.Name = "atajosToolStripMenuItem";
-            this.atajosToolStripMenuItem.Size = new System.Drawing.Size(123, 26);
+            this.atajosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.atajosToolStripMenuItem.Text = "Atajos";
             this.atajosToolStripMenuItem.Click += new System.EventHandler(this.atajosToolStripMenuItem_Click);
             // 
             // AyudaToolStripMenuItem
             // 
-            this.AyudaToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AyudaToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AyudaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("AyudaToolStripMenuItem.Image")));
             this.AyudaToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem";
-            this.AyudaToolStripMenuItem.Size = new System.Drawing.Size(98, 36);
+            this.AyudaToolStripMenuItem.Size = new System.Drawing.Size(95, 36);
             this.AyudaToolStripMenuItem.Text = "Ayuda";
             this.AyudaToolStripMenuItem.Click += new System.EventHandler(this.AyudaToolStripMenuItem_Click);
             // 
@@ -483,7 +484,6 @@
             this.btnMadmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
             this.btnMadmin.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMadmin.FlatAppearance.BorderSize = 0;
-            this.btnMadmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMadmin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMadmin.ForeColor = System.Drawing.Color.White;
             this.btnMadmin.Image = global::CapaPresentacion.Properties.Resources.tie_78321;
@@ -597,7 +597,6 @@
             this.btnMGestion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(69)))), ((int)(((byte)(118)))));
             this.btnMGestion.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMGestion.FlatAppearance.BorderSize = 0;
-            this.btnMGestion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMGestion.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMGestion.ForeColor = System.Drawing.Color.White;
             this.btnMGestion.Image = global::CapaPresentacion.Properties.Resources.candidate;
@@ -709,7 +708,6 @@
             this.btnMventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(7)))), ((int)(((byte)(31)))));
             this.btnMventas.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMventas.FlatAppearance.BorderSize = 0;
-            this.btnMventas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMventas.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMventas.ForeColor = System.Drawing.Color.White;
             this.btnMventas.Image = global::CapaPresentacion.Properties.Resources.health_check;
@@ -860,7 +858,6 @@
             this.btnMcompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(88)))), ((int)(((byte)(7)))));
             this.btnMcompras.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMcompras.FlatAppearance.BorderSize = 0;
-            this.btnMcompras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMcompras.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMcompras.ForeColor = System.Drawing.Color.White;
             this.btnMcompras.Image = global::CapaPresentacion.Properties.Resources.mailbox32;
@@ -905,7 +902,7 @@
             this.btnmovimientocaja.Padding = new System.Windows.Forms.Padding(0, 0, 45, 0);
             this.btnmovimientocaja.Size = new System.Drawing.Size(191, 30);
             this.btnmovimientocaja.TabIndex = 29;
-            this.btnmovimientocaja.Text = "Movimientos";
+            this.btnmovimientocaja.Text = " Movimientos";
             this.btnmovimientocaja.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnmovimientocaja.UseVisualStyleBackColor = false;
             // 
@@ -989,7 +986,6 @@
             this.btnMcaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnMcaja.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMcaja.FlatAppearance.BorderSize = 0;
-            this.btnMcaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMcaja.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMcaja.ForeColor = System.Drawing.Color.White;
             this.btnMcaja.Image = global::CapaPresentacion.Properties.Resources.cashregister_106599;
@@ -1019,22 +1015,22 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("IceCreamPartySolid", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(81, 49);
+            this.label2.Location = new System.Drawing.Point(81, 53);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 16);
+            this.label2.Size = new System.Drawing.Size(98, 20);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Los chombo.";
+            this.label2.Text = "Los chombos";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("IceCreamPartySolid", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(81, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 16);
+            this.label1.Size = new System.Drawing.Size(92, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "Minimarket";
             // 

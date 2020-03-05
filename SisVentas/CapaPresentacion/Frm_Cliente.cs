@@ -14,8 +14,8 @@ namespace CapaPresentacion
     {
 
         //variables para gestionar el bloqueo de botones
-        private bool IsNuevo = false;
-        private bool IsEditar = false;
+        private bool nuevo = false;
+        private bool editar = false;
 
         public Frm_Cliente()
         {
@@ -52,6 +52,51 @@ namespace CapaPresentacion
 
             }
                 
+        }
+
+        private void cmbTipoCliente_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (this.cmbTipoCliente.SelectedIndex == 0)
+            {
+
+                if (this.cmbTipoIdent.Items.Contains("RUC"))
+                {
+
+                    this.lblApellido.Text = "Razón Social:";
+                    this.cmbGenero.Enabled = false;
+                    this.cmbTipoIdent.SelectedItem = "RUC";
+                    this.cmbTipoIdent.Enabled = false;
+
+
+                }
+                else
+                {
+                    
+                    this.cmbTipoIdent.Items.Add("RUC");
+                    this.lblApellido.Text = "Razón Social:";
+                    this.cmbGenero.Enabled = false;
+                    this.cmbTipoIdent.SelectedItem = "RUC";
+                    this.cmbTipoIdent.Enabled = false;
+
+                }
+
+                
+            }
+            else if(this.cmbTipoCliente.SelectedItem.ToString() == "Natural")
+            {
+
+                if (this.cmbTipoIdent.Items.Contains("RUC"))
+                {
+
+                    this.cmbTipoIdent.Items.Remove("RUC");
+
+                }
+
+                this.lblApellido.Text = "Apellido:";
+                this.cmbGenero.Enabled = true;
+                this.cmbTipoIdent.Enabled = true;
+            }
+            
         }
     }
 }
