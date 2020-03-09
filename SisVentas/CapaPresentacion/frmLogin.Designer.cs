@@ -48,10 +48,11 @@
             this.TxtPassword = new System.Windows.Forms.TextBox();
             this.ttMensaje = new System.Windows.Forms.ToolTip(this.components);
             this.label3 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.pnlUsuario = new System.Windows.Forms.Panel();
+            this.pnlContraseña = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
+            this.lblError = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.data)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.estado)).BeginInit();
             this.panel1.SuspendLayout();
@@ -68,12 +69,12 @@
             this.BtnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(69)))), ((int)(((byte)(118)))));
             this.BtnIngresar.FlatAppearance.BorderSize = 2;
             this.BtnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnIngresar.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
+            this.BtnIngresar.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold);
             this.BtnIngresar.ForeColor = System.Drawing.SystemColors.Window;
-            this.BtnIngresar.Location = new System.Drawing.Point(294, 218);
+            this.BtnIngresar.Location = new System.Drawing.Point(295, 218);
             this.BtnIngresar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BtnIngresar.Name = "BtnIngresar";
-            this.BtnIngresar.Size = new System.Drawing.Size(199, 40);
+            this.BtnIngresar.Size = new System.Drawing.Size(230, 40);
             this.BtnIngresar.TabIndex = 4;
             this.BtnIngresar.Text = "Ingresar";
             this.BtnIngresar.UseVisualStyleBackColor = false;
@@ -212,10 +213,10 @@
             // btnClose
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
-            this.btnClose.Location = new System.Drawing.Point(586, 1);
+            this.btnClose.Location = new System.Drawing.Point(586, 2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(25, 25);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -229,7 +230,7 @@
             this.btnminimizar.BackColor = System.Drawing.Color.Transparent;
             this.btnminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnminimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnminimizar.Image")));
-            this.btnminimizar.Location = new System.Drawing.Point(555, 1);
+            this.btnminimizar.Location = new System.Drawing.Point(555, 3);
             this.btnminimizar.Name = "btnminimizar";
             this.btnminimizar.Size = new System.Drawing.Size(25, 25);
             this.btnminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -242,16 +243,15 @@
             this.TxtUsuario.BackColor = System.Drawing.Color.White;
             this.TxtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TxtUsuario.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtUsuario.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtUsuario.ForeColor = System.Drawing.Color.Black;
-            this.TxtUsuario.Location = new System.Drawing.Point(228, 93);
+            this.TxtUsuario.Location = new System.Drawing.Point(258, 96);
             this.TxtUsuario.MaxLength = 30;
             this.TxtUsuario.Multiline = true;
             this.TxtUsuario.Name = "TxtUsuario";
-            this.TxtUsuario.Size = new System.Drawing.Size(342, 35);
+            this.TxtUsuario.Size = new System.Drawing.Size(327, 35);
             this.TxtUsuario.TabIndex = 142;
             this.TxtUsuario.Text = "Usuario";
-            this.TxtUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TxtUsuario.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TxtUsuario_MouseClick);
             this.TxtUsuario.TextChanged += new System.EventHandler(this.TxtUsuario_TextChanged_1);
             this.TxtUsuario.Enter += new System.EventHandler(this.TxtUsuario_Enter_1);
@@ -262,16 +262,15 @@
             // 
             this.TxtPassword.BackColor = System.Drawing.Color.White;
             this.TxtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtPassword.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtPassword.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtPassword.ForeColor = System.Drawing.Color.Black;
-            this.TxtPassword.Location = new System.Drawing.Point(228, 153);
+            this.TxtPassword.Location = new System.Drawing.Point(263, 153);
             this.TxtPassword.MaxLength = 20;
             this.TxtPassword.Name = "TxtPassword";
             this.TxtPassword.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.TxtPassword.Size = new System.Drawing.Size(342, 25);
+            this.TxtPassword.Size = new System.Drawing.Size(322, 22);
             this.TxtPassword.TabIndex = 143;
             this.TxtPassword.Text = "Contraseña";
-            this.TxtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TxtPassword.UseSystemPasswordChar = true;
             this.TxtPassword.Click += new System.EventHandler(this.TxtPassword_Click);
             this.TxtPassword.TextChanged += new System.EventHandler(this.TxtPassword_TextChanged);
@@ -290,22 +289,22 @@
             this.label3.TabIndex = 144;
             this.label3.Text = "LOGIN";
             // 
-            // panel2
+            // pnlUsuario
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(69)))), ((int)(((byte)(118)))));
-            this.panel2.Location = new System.Drawing.Point(228, 118);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(350, 1);
-            this.panel2.TabIndex = 145;
+            this.pnlUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(69)))), ((int)(((byte)(118)))));
+            this.pnlUsuario.Location = new System.Drawing.Point(250, 118);
+            this.pnlUsuario.Name = "pnlUsuario";
+            this.pnlUsuario.Size = new System.Drawing.Size(350, 1);
+            this.pnlUsuario.TabIndex = 145;
             // 
-            // panel3
+            // pnlContraseña
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(69)))), ((int)(((byte)(118)))));
-            this.panel3.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.panel3.Location = new System.Drawing.Point(228, 177);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(350, 1);
-            this.panel3.TabIndex = 146;
+            this.pnlContraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(69)))), ((int)(((byte)(118)))));
+            this.pnlContraseña.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.pnlContraseña.Location = new System.Drawing.Point(250, 177);
+            this.pnlContraseña.Name = "pnlContraseña";
+            this.pnlContraseña.Size = new System.Drawing.Size(350, 1);
+            this.pnlContraseña.TabIndex = 146;
             // 
             // panel4
             // 
@@ -329,15 +328,26 @@
             this.label6.TabIndex = 142;
             this.label6.Text = "Control de Acceso";
             // 
+            // lblError
+            // 
+            this.lblError.AutoSize = true;
+            this.lblError.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblError.ForeColor = System.Drawing.Color.Red;
+            this.lblError.Location = new System.Drawing.Point(315, 181);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(0, 16);
+            this.lblError.TabIndex = 148;
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(617, 270);
+            this.Controls.Add(this.lblError);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pnlContraseña);
+            this.Controls.Add(this.pnlUsuario);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TxtPassword);
             this.Controls.Add(this.TxtUsuario);
@@ -352,6 +362,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmLogin";
             this.Opacity = 0.98D;
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Control de Acceso";
@@ -393,9 +404,10 @@
         private System.Windows.Forms.TextBox TxtPassword;
         private System.Windows.Forms.ToolTip ttMensaje;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel pnlUsuario;
+        private System.Windows.Forms.Panel pnlContraseña;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblError;
     }
 }

@@ -1,4 +1,4 @@
-use dbventasProyectTer
+USE dbventasProyectTer
 GO
 
 ---Procedimientos de Logeo y control de acceso 

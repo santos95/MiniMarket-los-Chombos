@@ -96,7 +96,7 @@ namespace CapaPresentacion
                 this.btnPresentacion.Enabled = true;
                 this.btnMGestion.Enabled = true;
                 this.btnProveedor.Enabled = true;
-                this.btnEmpleado.Enabled = true;
+                this.btnRespaldo.Enabled = true;
                 this.btnnuevaventa.Enabled = true;
                 this.btnnuevacompra.Enabled = true;
                 this.btnanularcompra.Enabled = true;
@@ -112,8 +112,8 @@ namespace CapaPresentacion
                 this.btnrecepcioncompra.Enabled = false;
                 this.btncuentasxpagar.Enabled = false;
                 this.btncotizacion.Enabled = false;
-                this.btnEmpleado.Enabled = false;
-                this.btnCargo.Enabled = false;
+                this.btnRespaldo.Enabled = false;
+                this.btnMantenimiento.Enabled = false;
                 this.btnroles.Enabled = false;
                 this.btnusuario.Enabled = false;
 
@@ -146,7 +146,7 @@ namespace CapaPresentacion
                 this.btnPresentacion.Enabled = true;
                 this.btnMGestion.Enabled = true;
                 this.btnProveedor.Enabled = true;
-                this.btnEmpleado.Enabled = false;
+                this.btnRespaldo.Enabled = false;
                 this.btnnuevaventa.Enabled = false;
                 this.btnnuevacompra.Enabled = false;
               //  this.btnaprobarcompra.Enabled = false;
@@ -532,7 +532,8 @@ namespace CapaPresentacion
 
         private void btnEmpleado_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new frmTrabajador());
+            //Respaldo
+            //AbrirFormEnPanel(new frmTrabajador());
         }
 
         private void btnCargo_Click(object sender, EventArgs e)
@@ -567,6 +568,7 @@ namespace CapaPresentacion
         private void btnUser_Click(object sender, EventArgs e)
         {
 
+            this.panelContenedor.Controls.Add(pnlUser);
             //desplegar boton Cerrar sesion
             if (this.pnlUser.Visible == false)
                 this.pnlUser.Visible = true;
@@ -575,6 +577,11 @@ namespace CapaPresentacion
 
            
 
+        }
+
+        private void button1_Click_6(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new frmTrabajador());
         }
     }
 }
