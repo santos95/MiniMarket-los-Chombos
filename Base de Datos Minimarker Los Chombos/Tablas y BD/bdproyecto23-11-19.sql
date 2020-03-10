@@ -20,6 +20,7 @@ direccion					varchar(250) null
 )
 GO
 
+
 CREATE TABLE tbl_cargo
 (
 id_cargo					int identity(1,1) primary key,
