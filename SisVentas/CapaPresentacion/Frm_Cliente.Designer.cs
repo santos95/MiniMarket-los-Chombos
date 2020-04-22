@@ -31,13 +31,18 @@
             this.components = new System.ComponentModel.Container();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cmbTipoBusqueda = new System.Windows.Forms.ComboBox();
+            this.tblCliente = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.txtCorreo = new System.Windows.Forms.TextBox();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.txtNumIdent = new System.Windows.Forms.TextBox();
             this.cmbTipoIdent = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtFechaNac = new System.Windows.Forms.DateTimePicker();
             this.cmbGenero = new System.Windows.Forms.ComboBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -53,7 +58,8 @@
             this.cmbTipoCliente = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnDeshacer = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
@@ -64,6 +70,8 @@
             this.tltCliente = new System.Windows.Forms.ToolTip(this.components);
             this.errorIcon = new System.Windows.Forms.ErrorProvider(this.components);
             this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tblCliente)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -74,7 +82,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl1.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.tabControl1.Location = new System.Drawing.Point(2, 51);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabControl1.Name = "tabControl1";
@@ -85,6 +93,11 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.tabPage1.Controls.Add(this.label2);
+            this.tabPage1.Controls.Add(this.btnBuscar);
+            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.cmbTipoBusqueda);
+            this.tabPage1.Controls.Add(this.tblCliente);
             this.tabPage1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.tabPage1.Location = new System.Drawing.Point(4, 30);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -93,6 +106,59 @@
             this.tabPage1.Size = new System.Drawing.Size(972, 463);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Listado";
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(11, 87);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(95, 21);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Buscar por:";
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscar.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.btnBuscar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnBuscar.Image = global::CapaPresentacion.Properties.Resources.xmag_search_find_export_locate_5984;
+            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBuscar.Location = new System.Drawing.Point(347, 107);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(153, 42);
+            this.btnBuscar.TabIndex = 3;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(20, 123);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(300, 26);
+            this.textBox1.TabIndex = 2;
+            // 
+            // cmbTipoBusqueda
+            // 
+            this.cmbTipoBusqueda.FormattingEnabled = true;
+            this.cmbTipoBusqueda.Items.AddRange(new object[] {
+            "Identifacación",
+            "Apellidos"});
+            this.cmbTipoBusqueda.Location = new System.Drawing.Point(112, 87);
+            this.cmbTipoBusqueda.Name = "cmbTipoBusqueda";
+            this.cmbTipoBusqueda.Size = new System.Drawing.Size(208, 28);
+            this.cmbTipoBusqueda.TabIndex = 1;
+            // 
+            // tblCliente
+            // 
+            this.tblCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tblCliente.Location = new System.Drawing.Point(15, 182);
+            this.tblCliente.Name = "tblCliente";
+            this.tblCliente.Size = new System.Drawing.Size(950, 270);
+            this.tblCliente.TabIndex = 0;
             // 
             // tabPage2
             // 
@@ -102,7 +168,7 @@
             this.tabPage2.Controls.Add(this.txtDireccion);
             this.tabPage2.Controls.Add(this.txtNumIdent);
             this.tabPage2.Controls.Add(this.cmbTipoIdent);
-            this.tabPage2.Controls.Add(this.dateTimePicker1);
+            this.tabPage2.Controls.Add(this.dtFechaNac);
             this.tabPage2.Controls.Add(this.cmbGenero);
             this.tabPage2.Controls.Add(this.txtApellido);
             this.tabPage2.Controls.Add(this.txtNombre);
@@ -159,6 +225,7 @@
             // 
             // cmbTipoIdent
             // 
+            this.cmbTipoIdent.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTipoIdent.FormattingEnabled = true;
             this.cmbTipoIdent.Items.AddRange(new object[] {
             "RUC",
@@ -169,19 +236,22 @@
             this.cmbTipoIdent.Size = new System.Drawing.Size(140, 29);
             this.cmbTipoIdent.TabIndex = 17;
             // 
-            // dateTimePicker1
+            // dtFechaNac
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(401, 190);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(295, 27);
-            this.dateTimePicker1.TabIndex = 16;
+            this.dtFechaNac.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtFechaNac.Location = new System.Drawing.Point(401, 190);
+            this.dtFechaNac.Name = "dtFechaNac";
+            this.dtFechaNac.Size = new System.Drawing.Size(140, 27);
+            this.dtFechaNac.TabIndex = 16;
             // 
             // cmbGenero
             // 
+            this.cmbGenero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbGenero.FormattingEnabled = true;
             this.cmbGenero.Items.AddRange(new object[] {
             "Femenino",
-            "Másculino"});
+            "Másculino",
+            "Neutro"});
             this.cmbGenero.Location = new System.Drawing.Point(401, 142);
             this.cmbGenero.Name = "cmbGenero";
             this.cmbGenero.Size = new System.Drawing.Size(140, 29);
@@ -294,6 +364,7 @@
             // 
             // cmbTipoCliente
             // 
+            this.cmbTipoCliente.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTipoCliente.FormattingEnabled = true;
             this.cmbTipoCliente.Items.AddRange(new object[] {
             "Jurídico",
@@ -317,7 +388,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(69)))), ((int)(((byte)(118)))));
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btnCancelar);
+            this.panel1.Controls.Add(this.btnDeshacer);
             this.panel1.Controls.Add(this.btnEditar);
             this.panel1.Controls.Add(this.btnGuardar);
             this.panel1.Controls.Add(this.btnNuevo);
@@ -328,18 +400,32 @@
             this.panel1.Size = new System.Drawing.Size(181, 455);
             this.panel1.TabIndex = 1;
             // 
-            // button2
+            // btnCancelar
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Image = global::CapaPresentacion.Properties.Resources.undo1;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(14, 256);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(153, 42);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "     Deshacer";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnCancelar.Image = global::CapaPresentacion.Properties.Resources.cancel;
+            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelar.Location = new System.Drawing.Point(14, 316);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(153, 42);
+            this.btnCancelar.TabIndex = 6;
+            this.btnCancelar.Text = "    Cerrar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // btnDeshacer
+            // 
+            this.btnDeshacer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeshacer.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnDeshacer.Image = global::CapaPresentacion.Properties.Resources.undo1;
+            this.btnDeshacer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeshacer.Location = new System.Drawing.Point(14, 256);
+            this.btnDeshacer.Name = "btnDeshacer";
+            this.btnDeshacer.Size = new System.Drawing.Size(153, 42);
+            this.btnDeshacer.TabIndex = 5;
+            this.btnDeshacer.Text = "     Deshacer";
+            this.btnDeshacer.UseVisualStyleBackColor = true;
             // 
             // btnEditar
             // 
@@ -366,6 +452,7 @@
             this.btnGuardar.TabIndex = 3;
             this.btnGuardar.Text = "     Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnNuevo
             // 
@@ -379,6 +466,7 @@
             this.btnNuevo.TabIndex = 2;
             this.btnNuevo.Text = "    Nuevo";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // lblAcciones
             // 
@@ -418,6 +506,7 @@
             // btbCerrar
             // 
             this.btbCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btbCerrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
             this.btbCerrar.Image = global::CapaPresentacion.Properties.Resources.cerrar;
             this.btbCerrar.Location = new System.Drawing.Point(948, 12);
             this.btbCerrar.Name = "btbCerrar";
@@ -446,7 +535,11 @@
             this.Name = "Frm_Cliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Cliente";
+            this.Load += new System.EventHandler(this.Frm_Cliente_Load);
             this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tblCliente)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -469,7 +562,7 @@
         private System.Windows.Forms.Label lblAcciones;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.Button btnGuardar;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnDeshacer;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbTipoCliente;
@@ -490,9 +583,15 @@
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.TextBox txtNumIdent;
         private System.Windows.Forms.ComboBox cmbTipoIdent;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtFechaNac;
         private System.Windows.Forms.Button btbCerrar;
         private System.Windows.Forms.ToolTip tltCliente;
         private System.Windows.Forms.ErrorProvider errorIcon;
+        private System.Windows.Forms.DataGridView tblCliente;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cmbTipoBusqueda;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }

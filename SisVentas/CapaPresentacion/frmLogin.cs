@@ -284,6 +284,8 @@ namespace CapaPresentacion
                         //   MessageBox.Show(passuser);
                         frm.Show();
                         frm.btnUser.Text = TxtUsuario.Text;
+                        frm.usuario = TxtUsuario.Text;
+                      
                         this.Hide();
 
                     }
@@ -291,6 +293,7 @@ namespace CapaPresentacion
                     {
 
                         frm.Show();
+                        frm.usuario = TxtUsuario.Text;
                         frm.btnUser.Text = TxtUsuario.Text;
                         this.Hide();
 
@@ -298,6 +301,7 @@ namespace CapaPresentacion
                     if (accesousuario == 3)
                     {
                         frm.Show();
+                        frm.usuario = TxtUsuario.Text;
                         frm.btnUser.Text = TxtUsuario.Text;
                         this.Hide();
                     }

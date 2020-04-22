@@ -447,7 +447,7 @@ namespace CapaDatos
 			return ((ISingleResult<query_personaResult>)(result.ReturnValue));
 		}
 		
-		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.Insertar_categoria")]
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.spinsertar_categoria")]
 		public int Insertar_categoria([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(50)")] string nombrecat, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(256)")] string observacion)
 		{
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), nombrecat, observacion);

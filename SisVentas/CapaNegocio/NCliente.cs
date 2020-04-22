@@ -9,50 +9,57 @@ namespace CapaNegocio
 {
     public class NCliente
     { //Métodos para comunicarnos con la capa datos
-        //Método Insertar que llama al método Insertar de la clase DCliente
-        //de la CapaDatos
-        public static string Insertar(string nombre, string apellidos, string genero,
-            DateTime fecha_nacimiento,
-            string tipo_documento, string num_documento,
-            string direccion, string telefono, string email)
-        {
-            DCliente Obj = new DCliente();
-            Obj.Nombre = nombre;
-            Obj.Apellidos = apellidos;
-            Obj.Genero = genero;
-            Obj.Fecha_Nacimiento = fecha_nacimiento;
-            Obj.Tipo_Documento = tipo_documento;
-            Obj.Num_Documento = num_documento;
-            Obj.Direccion = direccion;
-            Obj.Telefono = telefono;
-            Obj.Email = email;
+      //Método Insertar que llama al método Insertar de la clase DCliente
+      //de la CapaDatos
+      /*
+      public static string Insertar(string nombre, string apellido, string genero,
+          string fechanac_constitucion,
+          string tipoCliente, string cedula_ruc,
+          string direccion, string telefono, string correo)
+      {
+          DCliente Cliente = new DCliente();
+          Cliente.Nombre = nombre;
+          Cliente.Apellido_sucursal = apellido;
+          Cliente.Genero = genero;
+          Cliente.Fechanac_fechaconstitucion = fechanac_constitucion;
+          Cliente.Tipo_cliente = tipoCliente;
+          Cliente.Cedula_ruc = cedula_ruc;
+          Cliente.Direccion = direccion;
+          Cliente.Telefono = telefono;
+          Cliente.Correo = correo;
+          Cliente.Estado = "A";
 
-            return Obj.Insertar(Obj);
-        }
 
-        //Método Editar que llama al método Editar de la clase DCliente
-        //de la CapaDatos
-        public static string Editar(int cod_cliente, string nombre, string apellidos, string genero,
-            DateTime fecha_nacimiento,
-            string tipo_documento, string num_documento,
-            string direccion, string telefono, string email)
-        {
-            DCliente Obj = new DCliente();
-            Obj.Cod_cliente = cod_cliente;
-            Obj.Nombre = nombre;
-            Obj.Apellidos = apellidos;
-            Obj.Genero = genero;
-            Obj.Fecha_Nacimiento = fecha_nacimiento;
-            Obj.Tipo_Documento = tipo_documento;
-            Obj.Num_Documento = num_documento;
-            Obj.Direccion = direccion;
-            Obj.Telefono = telefono;
-            Obj.Email = email;
-            return Obj.Editar(Obj);
-        }
 
-        //Método Eliminar que llama al método Eliminar de la clase DCliente
-        //de la CapaDatos
+          return Cliente.Insertar(Cliente);
+      }
+
+      /*
+      //Método Editar que llama al método Editar de la clase DCliente
+      //de la CapaDatos
+      public static string Editar(int cod_cliente, string nombre, string apellidos, string genero,
+          DateTime fecha_nacimiento,
+          string tipo_documento, string num_documento,
+          string direccion, string telefono, string email)
+      {
+          DCliente Obj = new DCliente();
+          Obj.Cod_cliente = cod_cliente;
+          Obj.Nombre = nombre;
+          Obj.Apellidos = apellidos;
+          Obj.Genero = genero;
+          Obj.Fecha_Nacimiento = fecha_nacimiento;
+          Obj.Tipo_Documento = tipo_documento;
+          Obj.Num_Documento = num_documento;
+          Obj.Direccion = direccion;
+          Obj.Telefono = telefono;
+          Obj.Email = email;
+          return Obj.Editar(Obj);
+      }
+
+  */
+      //Método Eliminar que llama al método Eliminar de la clase DCliente
+      //de la CapaDatos
+      /*
         public static string Eliminar(int cod_cliente)
         {
             DCliente Obj = new DCliente();
@@ -86,5 +93,5 @@ namespace CapaNegocio
             Obj.TextoBuscar = textobuscar;
             return Obj.BuscarNum_Documento(Obj);
         }
-    }
+    */}
 }

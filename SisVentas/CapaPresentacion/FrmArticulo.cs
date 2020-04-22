@@ -43,6 +43,14 @@ namespace CapaPresentacion
             this.ttMensaje.SetToolTip(this.txtNombre, "Ingrese el Nombre del Artículo");
             this.ttMensaje.SetToolTip(this.txtDescripcion, "Ingrese la descripción del Artículo");
             this.ttMensaje.SetToolTip(this.pxImagen, "Seleccione la imagen del artículo");
+            this.ttMensaje.SetToolTip(this.btnCargar, "Agreagar Imagen.");
+            this.ttMensaje.SetToolTip(this.btnLimpiar, "Retirar imagen.");
+            this.ttMensaje.SetToolTip(this.btnNuevo, "Agregue un nuevo producto.");
+            this.ttMensaje.SetToolTip(this.btnEditar, "Moficiar registro de producto exsitente.");
+            this.ttMensaje.SetToolTip(this.btnGuardar, "Guardar registro.");
+            this.ttMensaje.SetToolTip(this.btnSalir, "Salir del formulario.");
+            this.ttMensaje.SetToolTip(this.txtBuscar, "Escriba el nombre del producto.");
+            this.ttMensaje.SetToolTip(this.btnBuscarCategoria, "Buscar registro de categoria de producto");
             this.txtCod_categoria.Visible = false;
             this.txtCategoria.ReadOnly = true;
             this.LlenarComboPresentacion();
@@ -482,6 +490,21 @@ namespace CapaPresentacion
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            if (txtNombre.Text != "" || txtDescripcion.Text != "" || txtCategoria.Text != "")
+            {
+
+                if (MessageBox.Show("¿Tiene datos sin guardar, desea salir?", "Advertencia",
+              MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                    this.Close();
+            }
+            else
+            {
+                Close();
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
             if (txtNombre.Text != "" || txtDescripcion.Text != "" || txtCategoria.Text != "")
             {

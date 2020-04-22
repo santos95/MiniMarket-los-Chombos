@@ -40,13 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administracion\NUsuario.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="GestionNegocio\NCargo.cs" />
+    <Compile Include="GestionNegocio\NEmpleado.cs" />
+    <Compile Include="GestionNegocio\NHistorialEmpleado.cs" />
+    <Compile Include="GestionNegocio\NTasaCambio.cs" />
     <Compile Include="NArticulo.cs" />
     <Compile Include="NCategoria.cs" />
     <Compile Include="NCliente.cs" />
     <Compile Include="NIngreso.cs" />
     <Compile Include="NPresentacion.cs" />
     <Compile Include="NProveedor.cs" />
+    <Compile Include="Administracion\NRol.cs" />
     <Compile Include="NTrabajador.cs" />
     <Compile Include="NVentas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

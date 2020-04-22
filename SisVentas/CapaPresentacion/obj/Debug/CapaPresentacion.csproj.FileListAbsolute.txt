@@ -1143,7 +1143,6 @@ C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacio
 C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmAyuda.resources
 C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmayuda_atajos.resources
 C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmBienvenida.resources
-C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCargo.resources
 C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
 C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCliente.resources
 C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
@@ -1168,3 +1167,9 @@ C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacio
 C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
 C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
 C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Cliente.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Rol.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.GestionNegocio.FrmTasaCambio.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.GestionNegocio.FrmCargo.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.GestionNegocio.FrmEmpleado.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.GestionNegocio.FrmHistorialEmpleado.resources
+C:\Users\Santos Ortiz\Desktop\SistemaMinimarketChombos\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Administración.FrmUsuario.resources

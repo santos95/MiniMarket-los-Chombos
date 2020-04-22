@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Diagnostics;//manda a llmar los recursos del process.stark
+using CapaPresentacion.GestionNegocio;
+using CapaPresentacion.Administración;
 
 namespace CapaPresentacion
 {
@@ -18,6 +20,7 @@ namespace CapaPresentacion
         public string Cod_trabajador = "";
         public string Apellidos = "";
         public string Nombre = "";
+        public string usuario;
         public int Acceso;
         public FrmMenu()
         {
@@ -30,6 +33,8 @@ namespace CapaPresentacion
             this.pnlUser.Hide();
 
         }
+
+
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
@@ -106,6 +111,12 @@ namespace CapaPresentacion
             //cajero, vendedor
             else if (Acceso == 2)
             {
+                this.btnanularventa.Enabled = true;
+                this.btnMcaja.Enabled = true;
+                this.btnMGestion.Enabled = false;
+                this.btnMadmin.Enabled = false;
+                this.btnMcompras.Enabled = false;
+                /*
                 this.btnnuevacompra.Enabled = false;
                 this.btnanularcompra.Enabled = false;
                 this.btnordencompra.Enabled = false;
@@ -118,7 +129,7 @@ namespace CapaPresentacion
                 this.btnusuario.Enabled = false;
 
                 this.btnanularventa.Enabled = false;
-
+                *(
                 /*
                 this.btnCategoria.Enabled = true;
                 this.btnPresentacion.Enabled = true;
@@ -543,7 +554,9 @@ namespace CapaPresentacion
 
         private void btnroles_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new FrmRoles());
+            Frm_Rol rol = new Frm_Rol();
+            rol.usuario = usuario;
+            AbrirFormEnPanel(rol);
         }
 
         private void AyudaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -581,7 +594,33 @@ namespace CapaPresentacion
 
         private void button1_Click_6(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new frmTrabajador());
+            AbrirFormEnPanel(new FrmEmpleado());
+        }
+
+        private void button2_Click_2(object sender, EventArgs e)
+        {
+            FrmCargo Cargo = new FrmCargo();
+            Cargo.usuario = usuario;
+            AbrirFormEnPanel(Cargo);
+        }
+
+        private void button4_Click_4(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new FrmTasaCambio());
+        }
+
+        private void btnHistorialEmpleado_Click(object sender, EventArgs e)
+        {
+            FrmHistorialEmpleado Historial = new FrmHistorialEmpleado();
+            Historial.usuario = usuario;
+            AbrirFormEnPanel(Historial);
+        }
+
+        private void btnusuario_Click(object sender, EventArgs e)
+        {
+            FrmUsuario Usuario = new FrmUsuario();
+            Usuario.usuario = usuario;
+            AbrirFormEnPanel(Usuario);
         }
     }
 }

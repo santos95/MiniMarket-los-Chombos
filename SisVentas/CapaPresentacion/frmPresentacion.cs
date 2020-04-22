@@ -124,6 +124,7 @@ namespace CapaPresentacion
             this.Mostrar();
             this.Habilitar(false);
             this.Botones();
+        
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -213,6 +214,7 @@ namespace CapaPresentacion
             this.Limpiar();
             this.Habilitar(true);
             this.txtNombre.Focus();
+         
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -279,10 +281,12 @@ namespace CapaPresentacion
                 this.IsEditar = true;
                 this.Botones();
                 this.Habilitar(true);
+               
             }
             else
             {
                 this.MensajeError("Debe de seleccionar primero el registro a Modificar");
+                this.btnSalir.Enabled = false;
             }
         }
 
@@ -327,6 +331,11 @@ namespace CapaPresentacion
             {
                 Close();
             }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -153,7 +153,7 @@
             // 
             // btnMenu
             // 
-            this.btnMenu.BackColor = System.Drawing.Color.Green;
+            this.btnMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
             this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnMenu.Location = new System.Drawing.Point(0, 0);

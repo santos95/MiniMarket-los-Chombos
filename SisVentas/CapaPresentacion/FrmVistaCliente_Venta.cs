@@ -27,7 +27,7 @@ namespace CapaPresentacion
         //Método Mostrar
         private void Mostrar()
         {
-            this.dataListado.DataSource = NCliente.Mostrar();
+           // this.dataListado.DataSource = NCliente.Mostrar();
             this.OcultarColumnas();
             lblTotal.Text = "Total de Registros: " + Convert.ToString(dataListado.Rows.Count);
         }
@@ -35,7 +35,7 @@ namespace CapaPresentacion
         //Método BuscarApellidos
         private void BuscarApellidos()
         {
-            this.dataListado.DataSource = NCliente.BuscarApellidos(this.txtBuscar.Text);
+         //   this.dataListado.DataSource = NCliente.BuscarApellidos(this.txtBuscar.Text);
             this.OcultarColumnas();
             lblTotal.Text = "Total de Registros: " + Convert.ToString(dataListado.Rows.Count);
         }
@@ -43,7 +43,7 @@ namespace CapaPresentacion
         //Método BuscarNum_Documento
         private void BuscarNum_Documento()
         {
-            this.dataListado.DataSource = NCliente.BuscarNum_Documento(this.txtBuscar.Text);
+           // this.dataListado.DataSource = NCliente.BuscarNum_Documento(this.txtBuscar.Text);
             this.OcultarColumnas();
             lblTotal.Text = "Total de Registros: " + Convert.ToString(dataListado.Rows.Count);
         }

@@ -266,105 +266,109 @@ namespace CapaPresentacion
         {
             if (txtNum_Documento.Text != "" || txtNombre.Text != "" || txtEmail.Text != "" || txtTelefono.Text != "" || txtDireccion.Text != "")
             {
-                if (politcb.SelectedIndex == 0)
+                /*if (politcb.SelectedIndex == 0)
                 {
                     con.spinsertar_per(txtNum_Documento.Text.Trim(), txtNombre.Text.Trim(), txtApellidos.Text.Trim(), dtFecha_Nacimiento.Value.Date.ToShortDateString(), int.Parse(txtTelefono.Text), txtEmail.Text.Trim(), txtDireccion.Text.Trim());
                     con.SubmitChanges();
                     //loadcode();
                     /*con.insert_trabajador(1, "Cred", "Nada", 'A');
-                    con.SubmitChanges();*/
+                    con.SubmitChanges();
                 }
                 else
                 {
                     con.spinsertar_per(txtNum_Documento.Text.Trim(), txtNombre.Text.Trim(), txtApellidos.Text.Trim(), dtFecha_Nacimiento.Value.Date.ToShortDateString(), int.Parse(txtTelefono.Text), txtEmail.Text.Trim(), txtDireccion.Text.Trim());
                     con.SubmitChanges();
                     /*con.insert_trabajador(cod, "Con", "Nada", 'A');
-                    con.SubmitChanges();*/
-                }
+                    con.SubmitChanges();
+                }*/
+
             }
-            /*try
-            {
-
-                string Rpta = "";
-                if (this.txtNombre.Text == string.Empty || this.txtApellidos.Text == string.Empty || txtNum_Documento.Text == string.Empty || txtUsuario.Text == string.Empty || txtPassword.Text == string.Empty)
-                {
-                    MensajeError("Falta ingresar algunos datos, serán remarcados");
-                    errorIcono.SetError(txtNombre, "Ingrese un Valor");
-                    errorIcono.SetError(txtApellidos, "Ingrese un Valor");
-                    errorIcono.SetError(txtNum_Documento, "Ingrese un Valor");
-                    errorIcono.SetError(txtUsuario, "Ingrese un Valor");
-                    errorIcono.SetError(txtPassword, "Ingrese un Valor");
-                }
-                else
-                {
-                    if (this.IsNuevo)
-                    {
-
-                        Rpta = NTrabajador.Insertar(this.txtNombre.Text.Trim().ToUpper(),
-                        this.txtApellidos.Text.Trim().ToUpper(), cbGenero.Text,
-                        dtFecha_Nacimiento.Value,
-                        txtNum_Documento.Text, txtDireccion.Text,
-                        txtTelefono.Text, txtEmail.Text, cbAcceso.Text, txtUsuario.Text, txtPassword.Text);
-
-                    }
-                    else
-                    {
-
-                        Rpta = NTrabajador.Editar(Convert.ToInt32(this.txtcod_trabajador.Text), this.txtNombre.Text.Trim().ToUpper(),
-                        this.txtApellidos.Text.Trim().ToUpper(), cbGenero.Text,
-                        dtFecha_Nacimiento.Value,
-                        txtNum_Documento.Text, txtDireccion.Text,
-                        txtTelefono.Text, txtEmail.Text, cbAcceso.Text, txtUsuario.Text, txtPassword.Text);
-                    }
-
-                    if (Rpta.Equals("OK"))
-                    {
-                        if (this.IsNuevo)
-                        {
-                            this.MensajeOK("Se insertó de forma correcta el registro");
-                        }
-                        else
-                        {
-                            this.MensajeOK("Se actualizó de forma correcta el registro");
-                        }
-
-                    }
-                    else
-                    {
-
-                        this.MensajeError(Rpta);
-                    }
-                    this.IsNuevo = false;
-                    this.IsEditar = false;
-                    this.Botones();
-                    this.Limpiar();
-                    this.Mostrar();
-                    this.txtcod_trabajador.Text = "";
-
-                }
-            }
-
-            catch (Exception ex)
-            {
-
-                MessageBox.Show(ex.Message + ex.StackTrace);
-            }*/
-        }
-
-        private void button2_Click(object sender, EventArgs e)
+            try
         {
-            /*if (!this.txtcod_trabajador.Text.Equals(""))
+
+            string Rpta = "";
+            if (this.txtNombre.Text == string.Empty || this.txtApellidos.Text == string.Empty || txtNum_Documento.Text == string.Empty /*|| txtUsuario.Text == string.Empty || txtPassword.Text == string.Empty*/)
             {
-                this.IsEditar = true;
-                this.Botones();
+                MensajeError("Falta ingresar algunos datos, serán remarcados");
+                errorIcono.SetError(txtNombre, "Ingrese un Valor");
+                errorIcono.SetError(txtApellidos, "Ingrese un Valor");
+                errorIcono.SetError(txtNum_Documento, "Ingrese un Valor");
+               // errorIcono.SetError(txtUsuario, "Ingrese un Valor");
+               // errorIcono.SetError(txtPassword, "Ingrese un Valor");
             }
             else
             {
-                this.MensajeError("Debe de buscar un registro para Modificar");
-            }*/
+                if (this.IsNuevo)
+                {
+
+                   /* Rpta = NTrabajador.Insertar(this.txtNombre.Text.Trim().ToUpper(),
+                    this.txtApellidos.Text.Trim().ToUpper(), cbGenero.Text,
+                    dtFecha_Nacimiento.Value,
+                    txtNum_Documento.Text, txtDireccion.Text,
+                   txtTelefono.Text, txtEmail.Text, cbAcceso.Text, txtUsuario.Text, txtPassword.Text);
+                   */
+                }
+                else
+                {
+
+                        //Rpta = NTrabajador.Editar(Convert.ToInt32(this.txtcod_trabajador.Text), this.txtNombre.Text.Trim().ToUpper(),
+
+                        /*
+                    this.txtApellidos.Text.Trim().ToUpper(), cbGenero.Text,
+                    dtFecha_Nacimiento.Value,
+                    txtNum_Documento.Text, txtDireccion.Text,
+                    txtTelefono.Text, txtEmail.Text, cbAcceso.Text, txtUsuario.Text, txtPassword.Text);
+                    */
+                }
+
+                if (Rpta.Equals("OK"))
+                {
+                    if (this.IsNuevo)
+                    {
+                        this.MensajeOK("Se insertó de forma correcta el registro");
+                    }
+                    else
+                    {
+                        this.MensajeOK("Se actualizó de forma correcta el registro");
+                    }
+
+                }
+                else
+                {
+
+                    this.MensajeError(Rpta);
+                }
+                this.IsNuevo = false;
+                this.IsEditar = false;
+                this.Botones();
+                this.Limpiar();
+                this.Mostrar();
+               // this.txtcod_trabajador.Text = "";
+
+            }
         }
 
-        private void btnDeshacer_Click(object sender, EventArgs e)
+        catch (Exception ex)
+        {
+
+            MessageBox.Show(ex.Message + ex.StackTrace);
+        }
+    }
+
+    private void button2_Click(object sender, EventArgs e)
+    {
+        /*if (!this.txtcod_trabajador.Text.Equals(""))
+        {
+            this.IsEditar = true;
+            this.Botones();
+        }
+        else
+        {
+            this.MensajeError("Debe de buscar un registro para Modificar");
+        }
+        */
+    }
+    private void btnDeshacer_Click(object sender, EventArgs e)
         {
             this.IsNuevo = false;
             this.IsEditar = false;
@@ -424,6 +428,11 @@ namespace CapaPresentacion
             {
                 Close();
             }
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     }

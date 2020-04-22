@@ -1,25 +1,31 @@
-Create DataBase dbventasProyectTer
+USE MASTER
 GO
-Use dbventasProyectTer
-Go
 
+CREATE DATABASE dbventasProyectTer
+GO
+
+USE dbventasProyectTer
+GO
+
+--usar
 CREATE TABLE cat_persona
 (
 cod_persona int primary key,
-tipoIdent	char(3) check (tipoIdent in ('CED', 'PAS', 'RUC')),
+tipoIdent	char(3) check (tipoIdent in ('CED', 'PAS', 'RUC')) not null,
 cedula_ruc varchar(50) not null,
 nombre varchar(50) not null,
-apellido_sucursal varchar(50) not null,---en dado caso sea empresa se pide en donde esta ubicado.
-fechanac_fechaconstitucion varchar(50) null,
+apellido_razonS varchar(50) not null,---en dado caso sea empresa se pide en donde esta ubicado.
+fechanac_fechaconstitucion date null,
 telefono int null,
 correo varchar(30) null,
 direccion varchar(250) null
 )
 GO
 
+--usar
 CREATE TABLE tbl_cargo
 (
-id_cargo int identity(1,1) primary key,
+id_cargo int primary key, --identity da muchos problemas
 nombre_cargo varchar(50) not null,
 descripcion_cargo varchar(50) not null,
 observacion varchar(500) null,
@@ -28,36 +34,32 @@ estado char(1)check (estado in ('A','I'))not null
 )
 GO
 
-
-CREATE TABLE cat_trabajador
+--usar
+CREATE TABLE cat_empleado
 (
 cod_trabajador int PRIMARY KEY NOT NULL,
-persona int not null,
-genero char(1) check (genero in ('M','F'))not null,
-inss varchar(50) null,
-estadocivil char(1) check (estadocivil in ('S','C','D','J'))not null,
-razon_contratacion  varchar(50) null,---temporal, tiempo indefinido, fijo.
-estado char(1)check (estado in ('A','I'))not null---agregar al programa
-CONSTRAINT FK_persona FOREIGN KEY (persona) REFERENCES cat_persona (cod_persona)
+codPersona	   int not null,
+numINSS		   varchar(50) null,
+genero		   char(1) check (genero in ('M','F'))not null,
+estadocivil	   char(1) check (estadocivil in ('S','C','D','J'))not null,
+tipoContrato   CHAR(2) CHECK (tipoContrato IN ('TD', 'TI')) null,---tiempo determinado, tiempo indefinido.
+fechaReg		date default getdate(),
+estado		   char(1) check (estado in ('A','I'))not null---agregar al programa
+CONSTRAINT FK_persona FOREIGN KEY (codPersona) REFERENCES cat_persona (cod_persona)
 )
 GO
 
- 
-
-CREATE TABLE tbl_detallecargoasignado
+--usar
+CREATE TABLE tbl_detalleCargoEmpleado
 (
-id_detallec int IDENTITY(1,1) PRIMARY KEY NOT NULL,
-trabajador int not null,
-cargo int not null,
-autorizado varchar(50) not null,
-ingresado varchar(50) not null,
-fechaasign date default getdate(),
-CONSTRAINT FK_trabajador FOREIGN KEY (trabajador) REFERENCES cat_trabajador (cod_trabajador),
-CONSTRAINT FK_cargo FOREIGN KEY (cargo) REFERENCES tbl_cargo (id_cargo)
+id_detalleCargoEmpleado		int IDENTITY(1,1) PRIMARY KEY NOT NULL,
+codEmpleado					int FOREIGN KEY REFERENCES cat_empleado(cat_empleado),
+codCargo					int FOREIGN KEY REFERENCES  cat_cargo(id_cargo),
+autorizado					varchar(50) not null,
+dtFechaAsing				date not null,
+dtFechaRegis				date default getdate(),
 )
 GO
-
-
 
 
 CREATE TABLE cat_sucursal
@@ -82,6 +84,25 @@ CONSTRAINT FK_detalletrabajador FOREIGN KEY (trabajador) REFERENCES tbl_detallec
 )
 GO
 
+
+--usar
+Create Table cat_marca
+(
+  id_marca           INT IDENTITY(1,1) PRIMARY KEY,
+  Marca_Producto     nvarchar(50) not null
+)
+GO
+
+--usar
+CREATE TABLE cat_unidad_medida
+(
+	idUnidMed	INT IDENTITY(1,1) PRIMARY KEY,
+	strUnidadMedida	VARCHAR(10) NOT NULL,	 
+	strDescripcion	VARCHAR(120) NOT NULL
+)
+GO
+
+--usar
 CREATE TABLE tbl_categoria
 (
 id_categoria int IDENTITY(1,1)PRIMARY KEY NOT NULL,
@@ -91,6 +112,7 @@ fecharegistro date default getdate()
 )
 GO
 
+--usar
 CREATE TABLE tbl_presentacion
 (
 id_presentacion int IDENTITY(1,1)PRIMARY KEY NOT NULL,
@@ -99,40 +121,68 @@ descripcion varchar(256) NULL,
 fecharegistro date default getdate()
 )
 GO
-
-CREATE TABLE cat_proveedor
+--usar
+CREATE TABLE cat_pais
 (
-cod_proveedor int PRIMARY KEY NOT NULL,
-persona int not null,
-politica_venta varchar (3) check (politica_venta in ('CRE','COT', 'CON')) not null, --crédito, contado, consignacion
-observacion varchar(200) not null,
-fecharegistro date default getdate(),
-estado char(1)check (estado in ('A','I'))not null,
-CONSTRAINT FK_persona1 FOREIGN KEY (persona) REFERENCES cat_persona (cod_persona)
+	idPais	int not null,
+	nombre	varchar(50) not null,
+	nacionalidad varchar(50) not null
 )
 GO
 
+--usar
+CREATE TABLE cat_proveedor
+(
+cod_proveedor	 int PRIMARY KEY NOT NULL,
+codPersona		 int FOREIGN KEY REFERENCES cat_persona(cod_persona),
+politica_venta	 varchar (3) check (politica_venta in ('CRE','COT', 'CON')) not null, --crédito, contado, consignacion
+origen			 int foreign key references cat_pais(idPais),
+observacion		 varchar(200) not null,
+sitioEWeb		 varchar(80) not null,
+fecharegistro	 date default getdate(),
+estado			 char(1)check (estado in ('A','I'))not null
+)
+GO
+
+CREATE TABLE tblContactoProveedor
+(
+	numContactoProv			int primary key,
+	codPersona				int foreign key references cat_persona(cod_persona),
+	codProveedor			int foreign key references cat_proveedor(cod_proveedor),
+	strCelular				nvarchar(10) not null,
+	strTelefono				nvarchar(10) not null,
+	strEmail				nvarchar(80) not null,
+	chrEstado               char(1) check(chrEstado in('A', 'I'))
+
+)
+GO
  ----Ac=activo o NA= no activo
 ----------------------------------------------------------------REVISAR ESTE CAMPO--------------------------------------------------------------------
+--usar
 CREATE TABLE cat_articulo
 (
-cod_articulo int PRIMARY KEY  NOT NULL,
-categoria_articulo int NOT NULL,
-nombre varchar(50) NOT NULL,
-descripcion varchar(1024) NULL,
-imagen image NULL,
-cod_presentacion int NOT NULL,
+cod_articulo		int PRIMARY KEY  NOT NULL,
+codigo_barra		varchar(40) null,
+marca				int foreign key references cat_marca(id_marca),
+categoria_articulo	int NOT NULL,
+unidadMedida		int foreign key references cat_unidad_medida(idUnidMed),
+nombre				varchar(50) NOT NULL,
+descripcion			varchar(1024) NULL,
+imagen				image NULL,
+cod_presentacion	int NOT NULL,
 CONSTRAINT FK_articulo_categoria2 FOREIGN KEY (categoria_articulo) REFERENCES tbl_categoria (id_categoria), 
 CONSTRAINT FK_articulo_presentacion2 FOREIGN KEY (cod_presentacion) REFERENCES tbl_presentacion (id_presentacion) 
 )
 GO
--------punto 5
+
+--usar
 CREATE TABLE cat_cliente
 (
 cod_cliente int PRIMARY KEY NOT NULL,
 persona int not null,
 tipo_cliente char(2) check (tipo_cliente in ('JU','NA'))not null, --Juridico, Natural
 genero char(1) check (genero in ('M','F','N'))not null, --Masculino , Femenino , Ninguno
+fechaReg	date default getdate(),
 estado char(1)check (estado in ('A','I'))not null,
 CONSTRAINT FK_persona2 FOREIGN KEY (persona) REFERENCES cat_persona (cod_persona)
 )
@@ -253,30 +303,45 @@ CONSTRAINT FK_articulo FOREIGN KEY (articulo) REFERENCES cat_articulo (cod_artic
 GO
 
 CREATE TABLE tbl_inventario
-(
-id_inventario int IDENTITY(1,1) PRIMARY KEY,
-articulo int not null,
-existencia int not null,
-disponibilidad int not null,
-cantidadminima int not null,
-cantidadmaxima int not null,
-fecharegistro date default getdate(), 
-estado char(1)check (estado in ('A','I'))not null,
+(	
+id_inventario	 int PRIMARY KEY,
+articulo		 int not null,
+existencia		 int not null,
+disponibilidad	 int not null,
+cantidadminima	 int not null,
+cantidadmaxima	 int not null,
+fecharegistro	 date default getdate(), 
+estado			 char(1)check (estado in ('A','I'))not null,
 CONSTRAINT FK_articuloinventario FOREIGN KEY (articulo) REFERENCES cat_articulo (cod_articulo)
+)
+GO
+
+CREATE TABLE tblMovimientoInventario
+(
+	IdMovInvent	INT IDENTITY(1,1) PRIMARY KEY,
+	numInventario	INT FOREIGN KEY REFERENCES tbl_inventario(id_inventario),
+	tipoMov	CHAR(1) CHECK (tipoMov in('E', 'S')),
+	numDoc	INT NOT NULL,
+	flCantidad	FLOAT NOT NULL,
+	fechaRegisto	DATETIME DEFAULT GETDATE()
 )
 GO
 
 ------------------------------------------Tablas de Seguridad------------------------------------------
 
+--usar
 CREATE TABLE tbl_rolacceso
 (
 id_rolacceso int identity(1,1) primary key,
-tiporol varchar(50) not null,
+rol varchar(50) not null,
+descripcion varchar(120) not null,
+registrado varchar(40) not null,
 fechaing date default getdate(),
 estado char(1) check(Estado in ('A','I')) --Si el registro se mantiene A, I si no se mantiene
 )
 GO
 
+--usar
 -------------punto 10
 CREATE TABLE cat_usuario
 (
@@ -296,29 +361,27 @@ GO
 ----------------------punto 11
 CREATE TABLE tbl_control_acceso
 (
-id_control_acceso int identity(1,1) primary key,
-usuario int not null,
-estadoacceso char(1) check (estadoacceso in ('c','d','b')) not null, --CONTROLA SI EL USUARIO ESTA CONECTADO, DESCONECTADO, BLOQUEADO
-fecha_acceso date default getdate(),
-hora_acceso time default getdate(),
-FECHA_DESCONEXION DATETIME null,
-hora_desconexion time null
+id_control_acceso	int identity(1,1) primary key,
+usuario				int not null,
+estadoacceso		char(1) check (estadoacceso in ('c','d','b')) not null, --CONTROLA SI EL USUARIO ESTA CONECTADO, DESCONECTADO, BLOQUEADO
+dtConexion			date default getdate(),
+dtDesconexion		datetime null
 )
 GO
 
 
 ----------------------------------------------Control de funcionalidad al sistema-------------------------------------------------------------------
 --------------------punto 12
-CREATE TABLE cat_bitacora_acceso
+CREATE TABLE cat_bitacora
 (   
-cod_bitacora int identity primary key,
-usuario int not null,
-fecha_conexion date default getdate(),
-hora_conexion time default getdate(),
-hora_desconexion time null, --este campo se llena con un procedimiento almacenado de actualizacion
-ip_maquina varchar(50) not null,
-actividad varchar(50) not null,
-estado char(1) check(Estado in ('A','I')), --Controla si se lleva o no seguimiento a los registros de un usuario
+cod_bitacora	int identity(1,1) primary key,
+usuario			int not null,
+tipoActividad	char(1), --R = registro, E= edicion, L=Lectura
+tabla			varchar(50) not null,
+ip_maquina		varchar(50) not null,
+actividad		varchar(50) not null,
+fechaRegis		datetime default getdate(),
+estado			char(1) check(Estado in ('A','I')), --Controla si se lleva o no seguimiento a los registros de un usuario
 CONSTRAINT FK_usuario FOREIGN KEY (usuario) REFERENCES cat_usuario (cod_usuario)
 )
 GO
@@ -349,21 +412,61 @@ GO
 
 -------------CAJA--------------------------
 
-Create table cat_caja
+--usar
+CREATE TABLE tblTasaCambio
 (
-id_caja int primary key not null,
-descripcion varchar(100)
+	
+	IdTasaCambio		INT PRIMARY KEY,
+	flValorCambio		FLOAT NOT NULL,
+	dtFechaVigencia		DATETIME NOT NULL,
+	dtFechaRegistro		DATETIME DEFAULT GETDATE()
+
 )
 GO
 
-Create table tbl_caja_diaria
+CREATE TABLE catCaja
 (
-id_cajadiaria int IDENTITY(1,1) primary key not null,
-nomempleado nvarchar(50) null,
-fechaApertura date default getdate(),
-horaApertura date default getdate(),
-montoinicialcord decimal,
-montoinicialdol decimal
+numCaja					INT PRIMARY KEY not null,
+strNombre				VARCHAR(25) not null,
+strDescripcion			VARCHAR(100) null,
+saldo					MONEY NOT NULL,
+registrado				VARCHAR(40) NOT NULL,
+autorizado				VARCHAR(40) NOT NULL,
+fechaRegistro			DATETIME DEFAULT GETDATE(),
+chrEstado				CHAR(1) CHECK (chrEstado IN ('A', 'C'))
 )
 GO
- 
+
+CREATE TABLE tblAperturaCaja
+(
+idApertura				INT PRIMARY KEY NOT NULL,
+codCaja					INT FOREIGN KEY REFERENCES catCaja(numCaja),
+strUsuario				VARCHAR(40) NOT NULL,
+monto					FLOAT NOT NULL,
+fechaRegistro			DATETIME DEFAULT GETDATE(),
+strObservacion			VARCHAR(100) NULL,	
+)
+GO
+
+CREATE TABLE tblMovimientoCaja
+(
+idMovCaja				INT PRIMARY KEY NOT NULL,
+codCaja					INT FOREIGN KEY REFERENCES catCaja(numCaja), 					
+chrTipoMov				CHAR(1) CHECK (chrTipoMov IN ('E','I')),
+strConcepto				VARCHAR(40) NOT NULL,
+codComprobante			VARCHAR(20) NOT NULL,
+monto					FLOAT NOT NULL,
+fechaRegistro			DATETIME DEFAULT GETDATE()
+)
+CREATE TABLE tblCierreCaja
+(
+idCierre				INT PRIMARY KEY NOT NULL,
+codCaja					INT FOREIGN KEY REFERENCES catCaja(numCaja),
+usuarioEntrega			INT FOREIGN KEY REFERENCES cat_usuario(cod_usuario),
+usuarioAutoriza			INT FOREIGN KEY REFERENCES cat_usuario(cod_usuario),
+flMontoRecuento			FLOAT NOT NULL,
+flMontoCierre			FLOAT NOT NULL,
+flSaldo					FLOAT NOT NULL,
+fechaRegistro			DATETIME DEFAULT GETDATE()
+)
+

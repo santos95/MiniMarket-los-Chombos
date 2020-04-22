@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaPresentacion;
+using CapaPresentacion.GestionNegocio;
+using CapaPresentacion.Administración;
 namespace SisVentas
 {
     static class Program
@@ -16,7 +18,8 @@ namespace SisVentas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-             Application.Run(new frmLogin());
+            Application.Run(new frmLogin());
+            // Application.Run(new CapaPresentacion.GestionNegocio.FrmEmpleado());
             //Application.Run(FrmArticulo.GetInstancia());
             // Application.Run(new frmPresentacion());
              // Application.Run(new frmTrabajador());

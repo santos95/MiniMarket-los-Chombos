@@ -94,23 +94,27 @@ namespace CapaPresentacion
         //Método Mostrar
         private void Mostrar()
         {
+            /*
             this.dataListado.DataSource = NCliente.Mostrar();
             //this.OcultarColumnas();
             lblTotal.Text = "Total de Registros: " + Convert.ToString(dataListado.Rows.Count);
-        }
+        */}
 
         //Método BuscarApellidos
         private void BuscarApellidos()
         {
+            /*
             this.dataListado.DataSource = NCliente.BuscarApellidos(this.txtBuscar.Text);
             //this.OcultarColumnas();
             lblTotal.Text = "Total de Registros: " + Convert.ToString(dataListado.Rows.Count);
-        }
+       */
+           }
 
         //Método BuscarNum_Documento
         private void BuscarNum_Documento()
         {
-            this.dataListado.DataSource = NCliente.BuscarNum_Documento(this.txtBuscar.Text);
+
+            //this.dataListado.DataSource = NCliente.BuscarNum_Documento(this.txtBuscar.Text);
             //this.OcultarColumnas();
             lblTotal.Text = "Total de Registros: " + Convert.ToString(dataListado.Rows.Count);
         }
@@ -145,7 +149,7 @@ namespace CapaPresentacion
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             Codigo = Convert.ToString(row.Cells[1].Value);
-                            Rpta = NCliente.Eliminar(Convert.ToInt32(Codigo));
+              //              Rpta = NCliente.Eliminar(Convert.ToInt32(Codigo));
 
                             if (Rpta.Equals("OK"))
                             {
@@ -270,6 +274,7 @@ namespace CapaPresentacion
                 }
                 else
                 {
+                    /*
                     if (this.IsNuevo)
                     {
                         rpta = NCliente.Insertar(this.txtNombre.Text.Trim().ToUpper(),
@@ -281,18 +286,22 @@ namespace CapaPresentacion
                     }
                     else
                     {
+                       */ /*
                         rpta = NCliente.Editar(Convert.ToInt32(this.txtCod_cliente.Text),
                             this.txtNombre.Text.Trim().ToUpper(),
                             this.txtApellidos.Text.Trim().ToUpper(),
                             this.cbGenero.Text, dtFechaNac.Value, cbTipo_Documento.Text,
                             txtNum_Documento.Text, txtDireccion.Text, txtTelefono.Text,
                             txtEmail.Text);
-                    }
+                            
+                    }*/
 
                     if (rpta.Equals("OK"))
                     {
+
                         if (this.IsNuevo)
                         {
+             
                             this.MensajeOk("Se Insertó de forma correcta el registro");
                         }
                         else
@@ -352,7 +361,7 @@ namespace CapaPresentacion
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             Codigo = Convert.ToString(row.Cells[1].Value);
-                            Rpta = NCliente.Eliminar(Convert.ToInt32(Codigo));
+                //            Rpta = NCliente.Eliminar(Convert.ToInt32(Codigo));
 
                             if (Rpta.Equals("OK"))
                             {

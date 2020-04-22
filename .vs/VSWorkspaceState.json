@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SisVentas",
+    "\\SisVentas\\CapaDatos",
+    "\\SisVentas\\CapaNegocio",
+    "\\SisVentas\\CapaPresentacion",
+    "\\SisVentas\\SisVentas"
+  ],
+  "SelectedNode": "\\SisVentas\\SisVentas\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
